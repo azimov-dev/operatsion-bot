@@ -2,8 +2,11 @@ services:
   - type: worker
     name: telegram-bulk-quiz-bot
     runtime: python
+    plan: starter
+    region: oregon
     buildCommand: pip install -r telegram_bulk_quiz_bot/requirements.txt
     startCommand: python -m telegram_bulk_quiz_bot.bot
+    autoDeployTrigger: commit
     envVars:
       - key: BOT_TOKEN
         sync: false
