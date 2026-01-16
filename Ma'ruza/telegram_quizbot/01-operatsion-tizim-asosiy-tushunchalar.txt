@@ -1,0 +1,130 @@
+Q1: Operatsion tizimning asosiy vazifasi qaysi?
+1) Faqat matn terish dasturlarini ishga tushirish
+2) Resurslarni boshqarish va dasturlarni bajarilishini ta’minlash
+3) Faqat tarmoq paketlarini filtrlash
+4) Faqat drayverlarni o‘rnatish
+Correct option: 2
+---
+Q2: “Yadro (kernel)” nimani anglatadi?
+1) Foydalanuvchi ilovalari to‘plami
+2) OTning apparat bilan bevosita ishlaydigan markaziy qismi
+3) Brauzer plaginlari
+4) Grafik interfeys (GUI)
+Correct option: 2
+---
+Q3: “Ko‘p dasturlash (multiprogramming)” maqsadi nimadan iborat?
+1) Bir vaqtning o‘zida faqat bitta dastur ishlashi
+2) CPU bandligini maksimalga yaqinlashtirish
+3) Disk hajmini kamaytirish
+4) Monitor o‘lchamini oshirish
+Correct option: 2
+---
+Q4: “Kontekst almashish (context switch)” qaysi holatda yuz beradi?
+1) Faqat kompyuter o‘chirilganda
+2) OT bir jarayondan boshqasiga CPUni o‘tkazganda
+3) Faqat internet uzilganda
+4) Faqat BIOS yangilanganda
+Correct option: 2
+---
+Q5: “Tizim chaqirig‘i (system call)” nima?
+1) Antivirus skaneri
+2) Foydalanuvchi dasturining yadroning xizmatlarini so‘rashi
+3) Klaviatura drayveri
+4) Matn muharriri funksiyasi
+Correct option: 2
+---
+Q6: Batch (paket) tizimlariga xos belgi qaysi?
+1) Interaktiv dialog doimiy
+2) Ishlar navbat bilan, operator aralashuvi kam bo‘lgan holda bajariladi
+3) Faqat real vaqt tizimlari
+4) Faqat mobil OS
+Correct option: 2
+---
+Q7: Real vaqt OT (RTOS) uchun eng muhim talab odatda qaysi?
+1) Eng chiroyli GUI
+2) Vazifalarga javob berishning oldindan kafolatlangan kechikishi
+3) Eng katta RAM
+4) Eng ko‘p o‘yin
+Correct option: 2
+---
+Q8: Operatsion tizimlarning “tasnifi” deganda nimani tushunamiz?
+1) Faqat logotipiga ko‘ra ajratish
+2) OTlarni xususiyatlari (foydalanish sohasi, rejimlar, interfeys, arxitektura) bo‘yicha guruhlash
+3) Faqat versiya raqamiga ko‘ra ajratish
+4) Faqat ishlab chiqaruvchi mamlakatiga ko‘ra
+Correct option: 2
+---
+Q9: “Virtualizatsiya” (virtualization) ko‘proq nimaga xizmat qiladi?
+1) Faqat grafik dizayn
+2) Bir apparatda bir nechta virtual mashina/OT ishlatish
+3) Disk sektorini bo‘lish
+4) Faqat antivirus
+Correct option: 2
+---
+Q10: “Resource manager” (resurs boshqaruvi) OTda qaysi vazifaga yaqin?
+1) CPU, xotira va K/Ch resurslarini taqsimlash va nazorat qilish
+2) Faqat rasm chizish
+3) Faqat veb sahifa ochish
+4) Faqat printer rangini sozlash
+Correct option: 1
+---
+Q11: “Time-sharing” tizimlariga xos belgi qaysi?
+1) Faqat bitta foydalanuvchi
+2) Ko‘p foydalanuvchi/interaktiv ishlash, CPU vaqtini bo‘lib berish
+3) Faqat offline paket ishlov
+4) Faqat real vaqt
+Correct option: 2
+---
+Q12: “Device driver” nima?
+1) Matn muharriri
+2) OT va qurilma o‘rtasida aloqa qiluvchi dasturiy modul
+3) Brauzer kengaytmasi
+4) Fayl arxivi
+Correct option: 2
+---
+Q13: “Interrupt” (uzilish)ning OT uchun foydasi qaysi?
+1) CPU doim band bo‘lib qoladi
+2) K/Ch hodisalari tugaganini tez xabar qilib, samaradorlikni oshiradi
+3) Diskni kichraytiradi
+4) Tarmoqni uzadi
+Correct option: 2
+---
+Q14: “Protection” va “Security” tushunchalari OTda ko‘proq nimani anglatadi?
+1) Faqat ekran paroli
+2) Resurslarga ruxsatni cheklash va tizimni hujum/xatolardan himoya qilish
+3) Faqat font tanlash
+4) Faqat fayl nomlash
+Correct option: 2
+---
+Q15: “Multitasking” deganda odatda nimani tushunamiz?
+1) Bir vaqtning o‘zida bir nechta vazifani navbat bilan bajarish
+2) Faqat bitta vazifa
+3) Faqat diskni o‘qish
+4) Faqat BIOS sozlash
+Correct option: 1
+---
+Q16: OT resurslariga CPU, xotira va K/Ch qurilmalari kiradi.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q17: OT faqat bitta foydalanuvchi uchun bo‘lishi mumkin, ko‘p foydalanuvchili OTlar mavjud emas.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 2
+---
+Q18: Har bir OTda yadro (kernel) bo‘lishi shart.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 2
+---
+Q19: System calllar foydalanuvchi dasturlariga apparat resurslariga nazoratli kirish beradi.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q20: Ko‘p dasturlashning maqsadi CPU bandligini kamaytirishdir.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 2
+---

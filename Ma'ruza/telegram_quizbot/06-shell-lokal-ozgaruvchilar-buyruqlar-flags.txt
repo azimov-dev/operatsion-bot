@@ -1,0 +1,130 @@
+Q1: Shell nima?
+1) Kompilyator
+2) Foydalanuvchi buyruqlarini qabul qilib, OT/yadro bilan bog‘lovchi buyruqlar interpretatori
+3) Faqat fayl tizimi
+4) Antivirus
+Correct option: 2
+---
+Q2: Muhit o‘zgaruvchisi (environment variable)ning asosiy xususiyati qaysi?
+1) Faqat bitta komandada yashaydi
+2) Jarayon muhitida saqlanadi va farzand jarayonlarga meros bo‘lib o‘tishi mumkin
+3) Faqat kernel ichida bo‘ladi
+4) Faqat diskda bo‘ladi
+Correct option: 2
+---
+Q3: Lokal (shell) o‘zgaruvchi odatda qaysi holatda ko‘rinadi?
+1) Faqat joriy shell sessiyasida
+2) Barcha foydalanuvchilarda
+3) Butun tarmoqda
+4) BIOSda
+Correct option: 1
+---
+Q4: “Flag/option” nimani anglatadi?
+1) Buyruqdan oldin yoziladigan ixtiyoriy parametr bo‘lib, buyruq xatti-harakatini o‘zgartiradi
+2) Faqat fayl kengaytmasi
+3) Klaviatura tugmasi
+4) Grafik ikonka
+Correct option: 1
+---
+Q5: CLI buyruqlarida `-a` va `--all` ko‘pincha nimani bildiradi?
+1) Tasodifiy
+2) Barcha (all) obyektlarni ko‘rsatish/qo‘shish
+3) Faqat bitta obyekt
+4) Tizimni o‘chirish
+Correct option: 2
+---
+Q6: Quvur (pipe) `|` operatorining vazifasi qaysi?
+1) Ikki faylni aralashtiradi
+2) Bir buyruq chiqishini ikkinchi buyruq kirishiga uzatadi
+3) Kompyuterni qayta yuklaydi
+4) Diskni formatlaydi
+Correct option: 2
+---
+Q7: I/O yo‘naltirish (redirection) misoli qaysi?
+1) `cmd1 | cmd2`
+2) `ls > out.txt`
+3) `sudo reboot`
+4) `ping 8.8.8.8`
+Correct option: 2
+---
+Q8: “Exit code” (chiqish kodi) odatda nimani bildiradi?
+1) Monitordagi rang
+2) Buyruq muvaffaqiyatli tugaganmi yoki xatomi (0 ko‘pincha muvaffaqiyat)
+3) Disk hajmi
+4) RAM tezligi
+Correct option: 2
+---
+Q9: Quote (`'...'` yoki `"..."`) ko‘proq nimaga kerak?
+1) Bo‘sh joyli argumentlarni bitta butun argument sifatida uzatish
+2) Monitor rangini sozlash
+3) Diskni formatlash
+4) Internet tezligini oshirish
+Correct option: 1
+---
+Q10: `PATH` muhiti o‘zgaruvchisi odatda nimani belgilaydi?
+1) Dasturlarni qayerdan qidirish kerakligini
+2) Diskdagi bo‘sh joyni
+3) RAM hajmini
+4) Printer navbatini
+Correct option: 1
+---
+Q11: Shell skriptning “shebang” qatori (`#!/bin/sh`) nimaga xizmat qiladi?
+1) Faylni rasmga aylantiradi
+2) Skriptni qaysi interpreter bilan ishga tushirishni ko‘rsatadi
+3) Disk bo‘limini yaratadi
+4) Tarmoqni o‘chiradi
+Correct option: 2
+---
+Q12: “Exit status 0” odatda nimani anglatadi?
+1) Xato
+2) Muvaffaqiyat
+3) Disk to‘ldi
+4) Internet yo‘q
+Correct option: 2
+---
+Q13: `&&` operatori nimani bildiradi?
+1) Ikki buyruqni parallel bajaradi
+2) Birinchi buyruq muvaffaqiyatli bo‘lsa, keyingisini bajaradi
+3) Faqat fayl yaratadi
+4) Kompyuterni o‘chiradi
+Correct option: 2
+---
+Q14: `;` operatori nimani bildiradi?
+1) Birinchi muvaffaqiyatli bo‘lsa, keyingisi
+2) Buyruqlarni ketma-ket bajarish (statusdan qat’i nazar)
+3) Faqat tarmoq
+4) Faqat GUI
+Correct option: 2
+---
+Q15: `*` (glob) ko‘proq nimaga ishlatiladi?
+1) Fayl nomlarini andoza bo‘yicha moslashtirishga
+2) Diskni formatlashga
+3) CPUni tezlatishga
+4) BIOSga kirishga
+Correct option: 1
+---
+Q16: `export` qilingan o‘zgaruvchi farzand jarayonlarga ham uzatilishi mumkin.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q17: `|` (pipe) faqat fayl yaratish uchun ishlatiladi.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 2
+---
+Q18: `>` yo‘naltirish mavjud faylni ustidan yozib yuborishi mumkin.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q19: `2>` odatda standart xatolik chiqishini yo‘naltirish uchun ishlatiladi.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q20: Quote ishlatishning ma’nosi yo‘q, bo‘sh joylar hech qachon muammo qilmaydi.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 2
+---

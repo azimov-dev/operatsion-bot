@@ -1,0 +1,130 @@
+Q1: Sinxronizatsiya nimaga kerak?
+1) CPUni sovitish
+2) Bir nechta jarayon/oqimning resurslardan muvofiqlashgan holda foydalanishi
+3) Diskni bo‘lish
+4) Internetni tezlatish
+Correct option: 2
+---
+Q2: Uzilish (interrupt) nimani anglatadi?
+1) Monitor yorqinligi
+2) CPU e’tiborini boshqa hodisaga buruvchi signal (tashqi/ichki)
+3) Fayl kengaytmasi
+4) Printer rang sozlamasi
+Correct option: 2
+---
+Q3: “Maskable interrupt” nimasi bilan farq qiladi?
+1) Uni OS/CPU vaqtincha bloklashi (mask) mumkin
+2) Uni hech qachon bloklab bo‘lmaydi
+3) Faqat diskga tegishli
+4) Faqat GPUga tegishli
+Correct option: 1
+---
+Q4: “Non-maskable interrupt (NMI)” odatda qachon ishlatiladi?
+1) Juda muhim xatolar/holatlar (masalan, apparat nosozligi) uchun
+2) Oddiy klaviatura bosishida
+3) Brauzer ochilganda
+4) Fayl ko‘chirilganda
+Correct option: 1
+---
+Q5: Interrupt handling jarayonida “interrupt handler/ISR” nima qiladi?
+1) Veb sahifa ochadi
+2) Uzilish sababini qayta ishlaydi va kerakli xizmatni bajaradi
+3) Diskni formatlaydi
+4) CPUni o‘chiradi
+Correct option: 2
+---
+Q6: Nega kritik kod bo‘lagida uzilishlarni vaqtincha o‘chirib qo‘yish (ba’zi tizimlarda) ishlatiladi?
+1) Grafikni chizish uchun
+2) Kutilmagan preemption/interrupt sababli umumiy ma’lumot buzilishini kamaytirish uchun
+3) Internet tezligi uchun
+4) Printer tezligi uchun
+Correct option: 2
+---
+Q7: “Barrier synchronization” nimani anglatadi?
+1) Oqimlar ma’lum nuqtada bir-birini kutib, keyin birgalikda davom etadi
+2) Disk bo‘limi
+3) Tarmoq firewall
+4) Fayl shifrlash
+Correct option: 1
+---
+Q8: Uzilishlar schedulingga qanday ta’sir qiladi?
+1) Hech ta’sir qilmaydi
+2) ISR va rejalashtirish qarorlarini (preemption) tetiklab, kontekst almashishga olib kelishi mumkin
+3) Faqat diskga ta’sir qiladi
+4) Faqat GUIga ta’sir qiladi
+Correct option: 2
+---
+Q9: “Interrupt vector” nimaga xizmat qiladi?
+1) Uzilishlar uchun handler manzillarini/jadvalini ko‘rsatish
+2) Disk bo‘limi
+3) Tarmoq protokoli
+4) GUI element
+Correct option: 1
+---
+Q10: “Interrupt latency” nimani anglatadi?
+1) Uzilish kelib, handler ishga tushguncha bo‘lgan kechikish
+2) Disk aylanishi
+3) Internet ping
+4) Monitor kechikishi
+Correct option: 1
+---
+Q11: “Critical section”da uzilishlarni o‘chirishning xavfi qaysi?
+1) Muhim hodisalar kechikishi va real vaqt talablariga zarar
+2) Disk hajmi oshishi
+3) RAM yo‘qolishi
+4) Printer rang
+Correct option: 1
+---
+Q12: “Race condition” uzilishlar bilan qachon bog‘liq bo‘lishi mumkin?
+1) ISR va asosiy kod bir xil resursga sinxronizatsiyasiz murojaat qilsa
+2) Faqat internet bo‘lsa
+3) Faqat disk bo‘lsa
+4) Hech qachon
+Correct option: 1
+---
+Q13: “Interrupt storm” nimaga o‘xshaydi?
+1) Juda ko‘p uzilishlar kelib, CPU ko‘p vaqtini ISRga sarflashi
+2) Diskni formatlash
+3) RAMni ko‘paytirish
+4) Monitor o‘chishi
+Correct option: 1
+---
+Q14: “Polling” uzilishlarga alternativ sifatida nimani anglatadi?
+1) Qurilma holatini davriy tekshirish
+2) Fayl siqish
+3) DNS sozlash
+4) GUI chizish
+Correct option: 1
+---
+Q15: “Synchronization”ning to‘g‘ri natijasi qaysi?
+1) Umumiy ma’lumotlar yaxlitligi saqlanadi
+2) Disk bo‘limi
+3) Internet uziladi
+4) Printer qotadi
+Correct option: 1
+---
+Q16: Interruptlar yordamida K/Ch (I/O) hodisalari tugaganini OTga xabar qilish mumkin.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q17: Sinxronizatsiya bo‘lmasa ham, umumiy ma’lumotlar doim to‘g‘ri qoladi.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 2
+---
+Q18: Polling odatda CPUni ko‘proq band qilishi mumkin.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q19: ISR (interrupt handler) odatda juda og‘ir va uzoq ishlashi tavsiya etiladi.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 2
+---
+Q20: Interrupt latency real vaqt tizimlarida muhim ko‘rsatkich bo‘lishi mumkin.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---

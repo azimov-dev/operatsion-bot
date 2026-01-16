@@ -1,0 +1,130 @@
+Q1: Jarayon (process) nima?
+1) Faqat dastur fayli (.exe)
+2) Bajarilayotgan dastur + uning holati va resurslari
+3) Faqat CPU registrlari
+4) Faqat RAM bo‘lagi
+Correct option: 2
+---
+Q2: PCB (Process Control Block) nimani saqlaydi?
+1) Faqat tarmoq parolini
+2) Jarayon holati, registrlar, rejalashtirish ma’lumoti, xotira ko‘rsatkichlari va h.k.
+3) Faqat fayl nomlarini
+4) Faqat GPU sozlamalari
+Correct option: 2
+---
+Q3: Jarayon holatlarining klassik to‘plamiga qaysilar kiradi?
+1) New, Ready, Running, Waiting/Blocked, Terminated
+2) Red, Green, Blue
+3) Start, Stop, Pause
+4) Zip, Rar, 7z
+Correct option: 1
+---
+Q4: “Jarayon iyerarxiyasi” nimani anglatadi?
+1) Jarayonlar faqat bitta darajada bo‘ladi
+2) Ota (parent) va farzand (child) jarayonlar munosabati
+3) Faqat disk kataloglari
+4) Faqat tarmoq topologiyasi
+Correct option: 2
+---
+Q5: “Stack” odatda nimaga ishlatiladi?
+1) Dinamik obyektlarni uzoq muddat saqlash
+2) Funksiya chaqiriqlari, lokal o‘zgaruvchilar, qaytish manzili
+3) Fayllarni doimiy saqlash
+4) Tarmoq paketlari navbati
+Correct option: 2
+---
+Q6: “Heap” odatda nimaga ishlatiladi?
+1) Dinamik xotira ajratish (malloc/new) uchun
+2) Faqat registrlarni saqlash
+3) Faqat interrupt vektorlar
+4) BIOS jadvali
+Correct option: 1
+---
+Q7: “Kontekst almashish” jarayonida qaysi ish bajariladi?
+1) Monitor yorqinligi o‘zgaradi
+2) Joriy jarayon konteksti saqlanib, boshqa jarayon konteksti tiklanadi
+3) Internet tezligi o‘lchanadi
+4) Disk defragmentatsiya qilinadi
+Correct option: 2
+---
+Q8: Jarayon yaratishning umumiy natijasi qaysi?
+1) Yangi jarayon uchun alohida PCB va adres makoni (yoki ulashilgan) tashkil qilinadi
+2) Yadro o‘chib qoladi
+3) RAM butunlay formatlanadi
+4) CPU chastotasi doim oshadi
+Correct option: 1
+---
+Q9: “Context” tarkibiga odatda nimalar kiradi?
+1) Registrlar, dastur hisoblagichi (PC), stek ko‘rsatkichlari va h.k.
+2) Faqat klaviatura holati
+3) Faqat brauzer kesh
+4) Faqat disk sektori
+Correct option: 1
+---
+Q10: “Scheduler” jarayonlar bilan bog‘liq qaysi vazifani bajaradi?
+1) Jarayonlarni CPUda bajarish tartibini tanlash
+2) Fayllarni shifrlash
+3) Printer rangini sozlash
+4) Monitor rejimini o‘zgartirish
+Correct option: 1
+---
+Q11: “Zombie process” (zombi jarayon) odatda nimani anglatadi?
+1) Hali tugamagan jarayon
+2) Tugagan, lekin ota jarayon tomonidan statusi olinmagan jarayon
+3) Hech qachon yaratilmaydigan jarayon
+4) Faqat GUI jarayon
+Correct option: 2
+---
+Q12: “Orphan process” (yetim jarayon) nimaga o‘xshaydi?
+1) Ota jarayoni tugab ketgan, child jarayon davom etayotgan holat
+2) Faqat disk bo‘limi
+3) Faqat drayver
+4) Faqat internet sessiya
+Correct option: 1
+---
+Q13: “Fork/exec” modeli nimani bildiradi?
+1) Yangi jarayon yaratish va keyin yangi dastur tasvirini yuklash
+2) Faqat fayl ko‘chirish
+3) Faqat tarmoq sozlash
+4) Faqat BIOS yangilash
+Correct option: 1
+---
+Q14: “Heap fragmentation” nima?
+1) Disk bo‘limi
+2) Dinamik xotira bo‘lak-bo‘lak bo‘lib, samarali ajratish qiyinlashishi
+3) CPU qizishi
+4) Tarmoq uzilishi
+Correct option: 2
+---
+Q15: “Process termination” (jarayon yakunlanishi) sababi bo‘lishi mumkin:
+1) Normal tugash yoki xato/kill signali
+2) Faqat elektr uzilishi
+3) Faqat disk to‘lishi
+4) Faqat monitor o‘chishi
+Correct option: 1
+---
+Q16: Jarayon “Waiting/Blocked” holatda bo‘lsa, u CPUda bajarilmoqda.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 2
+---
+Q17: Stack odatda LIFO tamoyiliga asoslanadi.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q18: PCB jarayonni boshqarish uchun kerak bo‘lgan ma’lumotlarni saqlashi mumkin.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q19: Heap odatda funksiyalar chaqirig‘i chuqurligi bilan bevosita bog‘liq.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 2
+---
+Q20: Kontekst almashish juda arzon bo‘lib, hech qanday xarajatga ega emas.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 2
+---

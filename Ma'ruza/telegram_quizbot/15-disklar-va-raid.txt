@@ -1,0 +1,130 @@
+Q1: HDDda ma’lumotlar odatda nimada saqlanadi?
+1) Faqat RAMda
+2) Magnitlanish (magnetic) o‘zgarishlari sifatida disk plastinasida
+3) Faqat protsessor registrlarida
+4) Faqat bulutda
+Correct option: 2
+---
+Q2: Disk yuzasi mantiqan nimalarga bo‘linadi?
+1) Paket va port
+2) Trek (track) va sektor (sector)
+3) URL va DNS
+4) RGB kanallar
+Correct option: 2
+---
+Q3: “Seek time” nimani anglatadi?
+1) Disk aylanish tezligi
+2) Kalla (head)ning kerakli trekka ko‘chish vaqti
+3) Fayl siqish vaqti
+4) Internet ping
+Correct option: 2
+---
+Q4: “Rotational latency” nimani anglatadi?
+1) Disk aylanishi tufayli kerakli sektor kelishini kutish
+2) CPU kvanti
+3) RAM kechikishi
+4) Tarmoq buferi
+Correct option: 1
+---
+Q5: RAIDning umumiy maqsadi qaysi?
+1) Faqat diskni kichraytirish
+2) Ishlashni oshirish va/yoki ishonchlilikni kuchaytirish
+3) Faqat internetni tezlatish
+4) Faqat printerga yordam
+Correct option: 2
+---
+Q6: RAID 0 nimani beradi?
+1) Mirroring (ko‘paytirib saqlash)
+2) Striping (bo‘lib yozish) orqali tezlik, lekin nosozlikka chidamlilik yo‘q
+3) Parity bilan himoya
+4) Faqat bitta disk
+Correct option: 2
+---
+Q7: RAID 1 nimani beradi?
+1) Striping
+2) Mirroring (ma’lumotni 2+ diskda nusxalash)
+3) Parity
+4) Hech qanday himoya
+Correct option: 2
+---
+Q8: RAID 5da asosiy g‘oya qaysi?
+1) Parity ma’lumotini disklarga taqsimlab yozish
+2) Faqat mirroring
+3) Faqat bitta disk
+4) Faqat SSD
+Correct option: 1
+---
+Q9: “Throughput” disk kontekstida nimani bildiradi?
+1) Bir vaqt birligida uzatiladigan/o‘qiladigan ma’lumot hajmi
+2) Monitor kechikishi
+3) Internet ping
+4) CPU kvanti
+Correct option: 1
+---
+Q10: HDDning ishlashiga eng ko‘p ta’sir qiladiganlardan biri qaysi?
+1) Seek time va rotational latency
+2) Fayl kengaytmasi
+3) Monitor rangi
+4) Klaviatura tili
+Correct option: 1
+---
+Q11: SSDning HDDga nisbatan umumiy afzalligi qaysi?
+1) Mexanik qismlar yo‘qligi sababli kirish vaqti kichikroq
+2) Har doim arzonroq
+3) Har doim cheksiz umr
+4) Faqat serverda ishlaydi
+Correct option: 1
+---
+Q12: RAID 10 nimaga yaqin?
+1) RAID 1 (mirror) + RAID 0 (stripe) kombinatsiyasi
+2) Faqat parity
+3) Faqat bitta disk
+4) Faqat NFS
+Correct option: 1
+---
+Q13: Parityning maqsadi qaysi?
+1) Nosoz diskni tiklashga yordam beruvchi ortiqcha axborot
+2) Diskni kichraytirish
+3) Internetni tezlatish
+4) GUI chizish
+Correct option: 1
+---
+Q14: RAID qo‘llanganda ham zaxira nusxa (backup) kerak bo‘lishi mumkin, chunki:
+1) RAID xatolik/o‘chirish/virus kabi mantiqiy yo‘qotishlardan himoya qilmaydi
+2) RAID hamma narsani 100% himoya qiladi
+3) Backup faqat SSDda
+4) Backup faqat internet uchun
+Correct option: 1
+---
+Q15: “Hot spare” nimani anglatadi?
+1) Massivda tayyor turgan zaxira disk (nosozlikda avtomatik ishga tushishi mumkin)
+2) Diskni qizdirish
+3) Monitor rejimi
+4) BIOS menyusi
+Correct option: 1
+---
+Q16: RAID 0da bitta disk ishdan chiqsa, massivdagi ma’lumotlar yo‘qolishi mumkin.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q17: SSDda mexanik seek time HDDga nisbatan odatda juda kichik bo‘ladi.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q18: RAID 1 odatda bitta disk nosozligiga chidamli bo‘lishi mumkin.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q19: Parity RAID darajalari yozishda qo‘shimcha hisob-kitob (overhead) keltirishi mumkin.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q20: Backup va RAID bir xil narsa.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 2
+---

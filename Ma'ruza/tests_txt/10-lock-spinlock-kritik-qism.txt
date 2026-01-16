@@ -1,0 +1,109 @@
+? 1. Lock (qulf)ning asosiy vazifasi qaysi?
+- A) Diskni shifrlash hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
++ B) Kritik qismga kirishni boshqarish (mutual exclusion)
+- C) Internetni tezlatish va unga yaqin yordamchi vazifalarni bajarish
+- D) Matnni formatlash va hujjat/taqdimot kabi ofis ilovalari bilan ishlash
+
+? 2. Mutex va spin-lock orasidagi asosiy farq ko‘pincha qaysi?
++ A) Spin-lock kutishda CPUni band qilib aylanishi (busy waiting) mumkin
+- B) Mutex hech qachon bloklamaydi va unga yaqin yordamchi vazifalarni bajarish
+- C) Spin-lock faqat fayllar uchun va unga yaqin yordamchi vazifalarni bajarish
+- D) Mutex faqat tarmoq uchun va tarmoq trafikini filtrlash/marshrutlash qoidalarini sozlash
+
+? 3. Time slicing (vaqt taqsimoti) bo‘lgan tizimda spin-lockning xavfi nimada?
+- A) Hech qanday xavf yo‘q va unga yaqin yordamchi vazifalarni bajarish
++ B) Oqim CPU kvantini “aylanib” yeb qo‘yishi va samaradorlik pasayishi
+- C) Disk sektori yo‘qolishi hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- D) Printer qotishi va qurilmalarni ulash hamda drayverlarni boshqarish
+
+? 4. Deadlock xavfini oshiruvchi holat qaysi?
+- A) Locklarni doim bir xil tartibda olish
++ B) Bir nechta lockni turli tartibda olish
+- C) Lockni umuman ishlatmaslik va unga yaqin yordamchi vazifalarni bajarish
+- D) O‘qish va unga yaqin yordamchi vazifalarni bajarish
+
+? 5. “Stop-and-go” (signal/kutish) yondashuvi ko‘proq nimaga xizmat qiladi?
+- A) Oqimlarni shartsiz to‘xtatish va unga yaqin yordamchi vazifalarni bajarish
++ B) Shart bajarilmaguncha kutish va shart bajarilganda uyg‘otish
+- C) Diskni tozalash hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- D) GUI chizish va oynali interfeys elementlarini boshqarish
+
+? 6. Lock yordamida kritik qismni himoyalashning minimal sharti qaysi?
+- A) Lockni kritik qismdan keyin olish va unga yaqin yordamchi vazifalarni bajarish
++ B) Kritik qismdan oldin lock, keyin unlock qilish
+- C) Lockni umuman ishlatmaslik va unga yaqin yordamchi vazifalarni bajarish
+- D) Lockni faqat o‘qishda ishlatish va unga yaqin yordamchi vazifalarni bajarish
+
+? 7. “Fairness” (adolat) muammosi qaysi holatga olib kelishi mumkin?
++ A) Starvation (och qolish) — ayrim oqimlar uzoq kutib qolishi
+- B) Disk hajmi oshishi hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- C) RAM kamayishi va xotiradan foydalanishni nazorat qilish
+- D) Internet tezligi oshishi va unga yaqin yordamchi vazifalarni bajarish
+
+? 8. Bir vaqtda navbat (concurrent queue)da muhim talab qaysi?
++ A) Bir nechta oqim ishlaganda ham ma’lumot yaxlitligi saqlanishi
+- B) Bitta oqim ishlashi va unga yaqin yordamchi vazifalarni bajarish
+- C) GUI bo‘lishi va oynali interfeys elementlarini boshqarish
+- D) SSDda ishlashi va unga yaqin yordamchi vazifalarni bajarish
+
+? 9. “Reentrant lock” nimaga yaqin?
++ A) Oqim lockni bir necha marta ola oladi (hisoblagich bilan)
+- B) Lock umuman ishlamaydi va unga yaqin yordamchi vazifalarni bajarish
+- C) Disk lock hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- D) Tarmoq lock va tarmoq trafikini filtrlash/marshrutlash qoidalarini sozlash
+
+? 10. “Critical section” juda uzun bo‘lsa, nima yuz berishi mumkin?
++ A) Kutishlar ortadi, parallelizm kamayadi
+- B) Disk hajmi oshadi hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- C) Internet tezligi oshadi va unga yaqin yordamchi vazifalarni bajarish
+- D) RAM yo‘qoladi va xotiradan foydalanishni nazorat qilish
+
+? 11. “Lock contention” nimani anglatadi?
++ A) Bir nechta oqim bir lock uchun raqobat qiladi
+- B) Disk bo‘limi hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- C) Printer navbati va qurilmalarni ulash hamda drayverlarni boshqarish
+- D) BIOS xabari va firmware (UEFI/BIOS) sozlamalari bilan ishlash
+
+? 12. Deadlockdan qochishning amaliy qoidalaridan biri qaysi?
++ A) Locklarni doim bir xil tartibda olish
+- B) Locklarni tasodifiy olish va unga yaqin yordamchi vazifalarni bajarish
+- C) Lockni hech qachon bo‘shatmaslik va unga yaqin yordamchi vazifalarni bajarish
+- D) Sleep ishlatish va unga yaqin yordamchi vazifalarni bajarish
+
+? 13. “Try-lock” (lockni sinab ko‘rish) nimaga foydali bo‘lishi mumkin?
++ A) Bloklanmasdan lock olishga urinish
+- B) Diskni formatlash hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- C) Tarmoqni o‘chirish va tarmoq trafikini filtrlash/marshrutlash qoidalarini sozlash
+- D) BIOSga kirish va firmware (UEFI/BIOS) sozlamalari bilan ishlash
+
+? 14. Spin-lock qachon ko‘proq mos?
++ A) Juda qisqa kritik kesim, bloklash xarajati katta bo‘lsa
+- B) Juda uzun kritik kesim va unga yaqin yordamchi vazifalarni bajarish
+- C) I/O kutish va unga yaqin yordamchi vazifalarni bajarish
+- D) Single-thread va unga yaqin yordamchi vazifalarni bajarish
+
+? 15. “Fair lock” nimani anglatadi?
++ A) Kutish navbatidagi tartibga yaqin adolatli xizmat
+- B) Har doim tasodifiy va unga yaqin yordamchi vazifalarni bajarish
+- C) Hech qachon unlock bo‘lmaydi va unga yaqin yordamchi vazifalarni bajarish
+- D) Tarmoqda va tarmoq trafikini filtrlash/marshrutlash qoidalarini sozlash
+
+? 16. Spin-lock odatda juda qisqa kritik kesimlar uchun ma’qul.
++ A) To‘g‘ri
+- B) Noto‘g‘ri
+
+? 17. Lock ishlatish race condition ehtimolini kamaytiradi.
++ A) To‘g‘ri
+- B) Noto‘g‘ri
+
+? 18. Lock contention oshsa, samaradorlik pasayishi mumkin.
++ A) To‘g‘ri
+- B) Noto‘g‘ri
+
+? 19. Try-lock yordamida deadlock ehtimolini ba’zan kamaytirish mumkin.
++ A) To‘g‘ri
+- B) Noto‘g‘ri
+
+? 20. Lockni kritik qismdan oldin olish kerak emas.
+- A) To‘g‘ri
++ B) Noto‘g‘ri

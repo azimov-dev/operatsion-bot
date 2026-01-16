@@ -1,0 +1,11 @@
+services:
+  - type: worker
+    name: telegram-bulk-quiz-bot
+    runtime: python
+    buildCommand: pip install -r telegram_bulk_quiz_bot/requirements.txt
+    startCommand: python -m telegram_bulk_quiz_bot.bot
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: TESTS_DIR
+        value: "Ma'ruza/tests_txt"

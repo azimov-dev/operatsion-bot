@@ -1,0 +1,158 @@
+# 8-mavzu: CPU Scheduling (protsessor vaqtini rejalashtirish) — test
+
+## Variantli savollar (A/B/C/D)
+
+1. CPU schedulingning asosiy vazifasi qaysi?
+
+- A) Fayllarni shifrlash va unga yaqin yordamchi vazifalarni bajarish
+- B) Tayyor jarayonlar orasidan protsessorda ishlaydiganini tanlash
+- C) Printer rangini sozlash va qurilmalarni ulash hamda drayverlarni boshqarish
+- D) Diskni formatlash hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+
+2. “Ready queue” nimani saqlaydi?
+
+- A) Tugagan jarayonlarni va unga yaqin yordamchi vazifalarni bajarish
+- B) Xotirada turgan va bajarilishga tayyor jarayonlarni
+- C) Tarmoq paketlarini va tarmoq trafikini filtrlash/marshrutlash qoidalarini sozlash
+- D) Klaviatura hodisalarini va unga yaqin yordamchi vazifalarni bajarish
+
+3. “Job queue” nimani anglatadi?
+
+- A) Qurilma navbati va qurilmalarni ulash hamda drayverlarni boshqarish
+- B) Tizimdagi barcha jarayonlar to‘plami (kirgan ishlar)
+- C) RAM bo‘lagi va xotiradan foydalanishni nazorat qilish
+- D) Foydalanuvchi buyruqlari va unga yaqin yordamchi vazifalarni bajarish
+
+4. “Dispatcher”ning vazifasi qaysi?
+
+- A) Faylni siqish va unga yaqin yordamchi vazifalarni bajarish
+- B) Tanlangan jarayonga CPUni berish va kontekst almashishni bajarish
+- C) Tarmoqni o‘chirish va tarmoq trafikini filtrlash/marshrutlash qoidalarini sozlash
+- D) Drayver o‘rnatish va qurilmalarni ulash hamda drayverlarni boshqarish
+
+5. FCFS algoritmida qaysi prinsip ishlaydi?
+
+- A) Eng qisqa ish birinchi va unga yaqin yordamchi vazifalarni bajarish
+- B) Birinchi kelgan — birinchi bajariladi
+- C) Eng yuqori prioritet doim va unga yaqin yordamchi vazifalarni bajarish
+- D) Tasodifiy tanlash va unga yaqin yordamchi vazifalarni bajarish
+
+6. Round Robin uchun eng muhim parametr qaysi?
+
+- A) Disk sektori hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- B) Vaqt kvanti (time quantum)
+- C) IP manzil va unga yaqin yordamchi vazifalarni bajarish
+- D) Fayl nomi va unga yaqin yordamchi vazifalarni bajarish
+
+7. SJF algoritmining asosiy kamchiligi qaysi?
+
+- A) CPU bandligini oshiradi va unga yaqin yordamchi vazifalarni bajarish
+- B) Keyingi ish davomiyligini oldindan bilish qiyin
+- C) Doim adolatli va unga yaqin yordamchi vazifalarni bajarish
+- D) Hech qachon kutish bo‘lmaydi va unga yaqin yordamchi vazifalarni bajarish
+
+8. Scheduling “mexanizm” va “siyosat” farqi qaysi?
+
+- A) Ikkalasi bir xil va unga yaqin yordamchi vazifalarni bajarish
+- B) Siyosat — qoidalar; mexanizm — bajarish usuli (navbat/dispatcher/context switch)
+- C) Mexanizm — faqat GUI va oynali interfeys elementlarini boshqarish
+- D) Siyosat — faqat drayver va qurilmalarni ulash hamda drayverlarni boshqarish
+
+9. “Waiting time” (kutish vaqti) odatda nimani bildiradi?
+
+- A) Jarayonning ready queue’da kutgan umumiy vaqti
+- B) Disk aylanishi hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- C) Internet ping va unga yaqin yordamchi vazifalarni bajarish
+- D) Monitor kechikishi va unga yaqin yordamchi vazifalarni bajarish
+
+10. “Turnaround time” nimani bildiradi?
+
+- A) Jarayon kelganidan tugaguncha bo‘lgan umumiy vaqt
+- B) CPUda ishlagan vaqt va unga yaqin yordamchi vazifalarni bajarish
+- C) Diskda kutgan vaqt hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- D) Tarmoqda o‘tgan vaqt va tarmoq trafikini filtrlash/marshrutlash qoidalarini sozlash
+
+11. “Response time” ko‘proq qaysi tizimlarda muhim?
+
+- A) Interaktiv tizimlarda
+- B) Batch tizimlarda va unga yaqin yordamchi vazifalarni bajarish
+- C) BIOSda va firmware (UEFI/BIOS) sozlamalari bilan ishlash
+- D) Printerda va qurilmalarni ulash hamda drayverlarni boshqarish
+
+12. Priority schedulingda muammo bo‘lishi mumkin:
+
+- A) Starvation
+- B) Diskni formatlash hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- C) RAMni yo‘qotish va xotiradan foydalanishni nazorat qilish
+- D) Monitor sinishi va unga yaqin yordamchi vazifalarni bajarish
+
+13. Starvationga qarshi amaliy usul (aging) nimani anglatadi?
+
+- A) Vaqt o‘tishi bilan kutayotgan jarayon prioritetini oshirish
+- B) Diskni eskirtirish hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- C) CPUni sekinlatish va unga yaqin yordamchi vazifalarni bajarish
+- D) Tarmoqni uzish va tarmoq trafikini filtrlash/marshrutlash qoidalarini sozlash
+
+14. Multilevel queue scheduling g‘oyasi qaysi?
+
+- A) Jarayonlarni sinf/toifalarga ajratib, alohida navbatlar yaratish
+- B) Bitta navbat va unga yaqin yordamchi vazifalarni bajarish
+- C) Tasodifiy tanlash va unga yaqin yordamchi vazifalarni bajarish
+- D) Disk navbati hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+
+15. Preemptive rejalashtirish qaysi holatda ro‘y beradi?
+
+- A) Jarayon ixtiyoriy ravishda CPUni bo‘shatganda
+- B) OT jarayonni majburan CPUdan chiqarib, boshqasiga beradi
+- C) Kompyuter o‘chirilganda va unga yaqin yordamchi vazifalarni bajarish
+- D) Drayver o‘zgarganda va qurilmalarni ulash hamda drayverlarni boshqarish
+
+## To‘g‘ri / Noto‘g‘ri
+
+16. Preemptive schedulingda jarayon uzilish yoki kvant tugashi bilan CPUdan chiqarilishi mumkin.
+
+- A) To‘g‘ri
+- B) Noto‘g‘ri
+
+17. “Device queue” barcha qurilmalar uchun bitta umumiy navbatdan iborat bo‘lishi shart.
+
+- A) To‘g‘ri
+- B) Noto‘g‘ri
+
+18. Round Robin interaktiv tizimlar uchun ko‘pincha qulay hisoblanadi.
+
+- A) To‘g‘ri
+- B) Noto‘g‘ri
+
+19. SJF algoritmi nazariy jihatdan o‘rtacha kutish vaqtini kamaytirishi mumkin.
+
+- A) To‘g‘ri
+- B) Noto‘g‘ri
+
+20. Scheduling qarorlari faqat jarayon tugaganda qabul qilinadi.
+
+- A) To‘g‘ri
+- B) Noto‘g‘ri
+
+## Javoblar kaliti
+
+1. B
+2. B
+3. B
+4. B
+5. B
+6. B
+7. B
+8. B
+9. A
+10. A
+11. A
+12. A
+13. A
+14. A
+15. B
+16. A
+17. B
+18. A
+19. A
+20. B

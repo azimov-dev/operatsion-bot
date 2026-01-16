@@ -1,0 +1,109 @@
+? 1. “Monolit yadro” arxitekturasiga eng mos ta’rif qaysi?
+- A) Yadro faqat minimal funksiyalarni bajaradi, hamma xizmatlar foydalanuvchi rejimida
++ B) Ko‘p xizmatlar yadro rejimida bitta katta yadro ichida ishlaydi
+- C) Yadro umuman yo‘q va unga yaqin yordamchi vazifalarni bajarish
+- D) Brauzer orqali ishlaydi va unga yaqin yordamchi vazifalarni bajarish
+
+? 2. Mikro-yadro (microkernel) yondashuvida odatda qaysi komponentlar yadroda qoladi?
+- A) Grafika drayverlari va qurilmalarni ulash hamda drayverlarni boshqarish
++ B) Minimal rejalashtirish, xabar almashish (IPC), xotira boshqaruvi asoslari
+- C) Barcha fayl tizimlari va tarmoq steklari (odatda user space xizmatlari)
+- D) Kompilyator va unga yaqin yordamchi vazifalarni bajarish
+
+? 3. Modulli yadro (loadable modules) afzalligi nimada?
++ A) Yadroni qayta yuklamasdan funksionalni modul sifatida qo‘shish/olish mumkin
+- B) CPU ishlashini doim sekinlashtiradi
+- C) Xotirani doim ko‘paytiradi va xotiradan foydalanishni nazorat qilish
+- D) Windowsda mavjud va unga yaqin yordamchi vazifalarni bajarish
+
+? 4. “Qatlamli (layered) arxitektura”ning g‘oyasi qaysi?
+- A) Barcha komponentlar bevosita apparat bilan ishlaydi
++ B) Har qatlam faqat pastki qatlam xizmatlaridan foydalanadi
+- C) Har qatlam bir-birini bilmaydi va unga yaqin yordamchi vazifalarni bajarish
+- D) Mobil tizimlar uchun va unga yaqin yordamchi vazifalarni bajarish
+
+? 5. “Gibrid yadro” deganda ko‘pincha nimani tushunishadi?
++ A) Monolit va mikro-yadro g‘oyalarining aralashmasi
+- B) Bulutli OT va unga yaqin yordamchi vazifalarni bajarish
+- C) O‘yin konsoli OT va unga yaqin yordamchi vazifalarni bajarish
+- D) DOS va unga yaqin yordamchi vazifalarni bajarish
+
+? 6. “Yadro rejimi (kernel mode)” nima uchun kerak?
+- A) Foydalanuvchi fon rasmini almashtirishi uchun
++ B) Privilegiyali buyruqlar va apparat resurslariga nazoratli kirish uchun
+- C) Matn formatlash uchun va hujjat/taqdimot kabi ofis ilovalari bilan ishlash
+- D) Keshni tozalash uchun va unga yaqin yordamchi vazifalarni bajarish
+
+? 7. “Foydalanuvchi rejimi (user mode)”ning maqsadi qaysi?
+- A) Yadro kodini o‘zgartirish va unga yaqin yordamchi vazifalarni bajarish
++ B) Ilovalarni cheklangan huquqlarda bajarib, tizimni himoyalash
+- C) BIOS sozlash va firmware (UEFI/BIOS) sozlamalari bilan ishlash
+- D) Diskni formatlashni majburlash hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+
+? 8. IPC (Inter-Process Communication) nima?
+- A) Internet provayder kompaniyasi va unga yaqin yordamchi vazifalarni bajarish
++ B) Jarayonlar o‘rtasida ma’lumot almashish mexanizmlari
+- C) Printer drayveri va qurilmalarni ulash hamda drayverlarni boshqarish
+- D) Videokarta modeli va unga yaqin yordamchi vazifalarni bajarish
+
+? 9. “System services” (tizim xizmatlari) arxitekturada nimani anglatishi mumkin?
++ A) OT xizmatlari (fayl/tarmoq/jarayon) va ularning joylashuvi
+- B) O‘yinlar va unga yaqin yordamchi vazifalarni bajarish
+- C) Brauzer va unga yaqin yordamchi vazifalarni bajarish
+- D) Drayver disk va qurilmalarni ulash hamda drayverlarni boshqarish
+
+? 10. “Trusted Computing Base (TCB)” g‘oyasi qaysi?
++ A) Ishonchli bo‘lishi kerak bo‘lgan minimal komponentlar to‘plami
+- B) UI elementlar va unga yaqin yordamchi vazifalarni bajarish
+- C) Klaviatura drayveri va qurilmalarni ulash hamda drayverlarni boshqarish
+- D) DNS va unga yaqin yordamchi vazifalarni bajarish
+
+? 11. “User space” xizmatlarini ajratishning afzalligi qaysi?
++ A) Xatolik bo‘lsa, yadro qulab tushishi ehtimoli kamayadi
+- B) Har doim tezlikni ikki baravar oshiradi
+- C) Diskni kichraytiradi hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- D) RAMni nol qiladi va xotiradan foydalanishni nazorat qilish
+
+? 12. “Kernel space”ga ko‘proq funksiyalarni joylashning kamchiligi qaysi?
+- A) Modullilik ortadi va unga yaqin yordamchi vazifalarni bajarish
++ B) Xatolik/bug tizim barqarorligiga kuchliroq ta’sir qiladi
+- C) Hech qanday risk yo‘q va unga yaqin yordamchi vazifalarni bajarish
+- D) Internetga ta’sir va unga yaqin yordamchi vazifalarni bajarish
+
+? 13. “POSIX” ko‘proq nimaga tegishli?
++ A) OTlar uchun interfeys/standartlar to‘plami
+- B) Videokarta protokoli va unga yaqin yordamchi vazifalarni bajarish
+- C) RAID darajasi va unga yaqin yordamchi vazifalarni bajarish
+- D) BIOS versiyasi va firmware (UEFI/BIOS) sozlamalari bilan ishlash
+
+? 14. “Abstraction” (abstraksiya) OT arxitekturasida nimaga xizmat qiladi?
++ A) Dasturchi uchun murakkablikni yashirish, standart interfeys berish
+- B) Font tanlash va unga yaqin yordamchi vazifalarni bajarish
+- C) Diskni formatlash hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- D) Tarmoqni uzish va tarmoq trafikini filtrlash/marshrutlash qoidalarini sozlash
+
+? 15. “Layer violation” (qatlam buzilishi) nimaga olib kelishi mumkin?
++ A) Dizayn murakkablashishi va qo‘llab-quvvatlash qiyinlashishi
+- B) Har doim tezlik oshishi va unga yaqin yordamchi vazifalarni bajarish
+- C) Hech qanday ta’sir yo‘q va unga yaqin yordamchi vazifalarni bajarish
+- D) Printer ishlamaydi va qurilmalarni ulash hamda drayverlarni boshqarish
+
+? 16. Mikro-yadroda xizmatlarning ko‘pi foydalanuvchi rejimida ishlashi mumkin.
++ A) To‘g‘ri
+- B) Noto‘g‘ri
+
+? 17. Monolit yadroda barcha xizmatlar albatta alohida jarayon sifatida ishlaydi.
+- A) To‘g‘ri
++ B) Noto‘g‘ri
+
+? 18. Modulli yadroda drayverni modul sifatida yuklash mumkin.
++ A) To‘g‘ri
+- B) Noto‘g‘ri
+
+? 19. IPC faqat tarmoq orqali ishlaydi, lokal jarayonlar uchun kerak emas.
+- A) To‘g‘ri
++ B) Noto‘g‘ri
+
+? 20. Kernel mode’da bajariladigan kod odatda yuqori privilegiyaga ega.
++ A) To‘g‘ri
+- B) Noto‘g‘ri

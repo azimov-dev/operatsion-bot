@@ -1,0 +1,130 @@
+Q1: Terminal/command line interfeysning asosiy afzalligi qaysi?
+1) Faqat rasm chizish
+2) Avtomatlashtirish va skriptlash imkoniyati
+3) Faqat o‘yin o‘ynash
+4) Faqat grafik dizayn
+Correct option: 2
+---
+Q2: PowerShellning klassik CMDdan farqli kuchli tomoni ko‘pincha nimada?
+1) Obyektlar bilan ishlash (pipeline orqali obyekt uzatish)
+2) Faqat matn chiqarish
+3) Faqat eski buyruqlar
+4) Faqat BIOS boshqarish
+Correct option: 1
+---
+Q3: Unix/Linux terminalida “case-sensitive” degani nima?
+1) Harflar registri farq qilmaydi
+2) `File` va `file` turli nomlar hisoblanadi
+3) Faqat raqamlar ishlaydi
+4) Faqat katta harf ishlaydi
+Correct option: 2
+---
+Q4: “Working directory” (joriy ishchi katalog) nimani bildiradi?
+1) Printer navbati
+2) Buyruqlar nisbiy yo‘llarni (relative path) hisoblaydigan katalog
+3) BIOS menyusi
+4) Internet manzili
+Correct option: 2
+---
+Q5: Nisbiy yo‘l (relative path) misoli qaysi?
+1) `/home/user/docs`
+2) `C:\\Windows\\System32`
+3) `../docs`
+4) `https://example.com`
+Correct option: 3
+---
+Q6: Mutlaq yo‘l (absolute path) misoli qaysi?
+1) `./run.sh`
+2) `/etc/hosts`
+3) `../bin`
+4) `docs/file.txt`
+Correct option: 2
+---
+Q7: Shell/terminalda “history” g‘oyasi nimani anglatadi?
+1) RAM tezligi
+2) Oldin kiritilgan buyruqlar ro‘yxati
+3) Disk bo‘limlari
+4) Tarmoq topologiyasi
+Correct option: 2
+---
+Q8: “Admin/root” huquqlarining maqsadi qaysi?
+1) Musiqa eshitish
+2) Tizim bo‘yicha privilegiyali amallarni bajarish
+3) Klaviaturani yoqish
+4) Browser keshini tozalash
+Correct option: 2
+---
+Q9: “Command prompt” (buyruqlar satri) nimani anglatadi?
+1) Tizimning GUI qismi
+2) Buyruq kiritish uchun interfeys va prompt belgisi
+3) Faqat printer drayveri
+4) Disk bo‘limi
+Correct option: 2
+---
+Q10: “Shell” va “terminal” farqiga eng yaqin fikr qaysi?
+1) Terminal — dastur/oyna; shell — buyruqlarni talqin qiluvchi muhit
+2) Ikkalasi doim bir xil
+3) Shell — apparat, terminal — drayver
+4) Terminal — yadro
+Correct option: 1
+---
+Q11: Copy-paste terminalda nimaga ehtiyot bo‘lish kerak?
+1) Hech qachon xavf yo‘q
+2) Noma’lum buyruqni tushunmasdan ishga tushirmaslik
+3) Faqat rang tanlash
+4) Faqat shrift
+Correct option: 2
+---
+Q12: “Environment variable”lar terminal ishlashiga qanday ta’sir qiladi?
+1) Buyruqlar va dasturlar xatti-harakatini sozlashi mumkin
+2) Faqat monitor rangiga
+3) Faqat diskga
+4) Hech qachon ta’sir qilmaydi
+Correct option: 1
+---
+Q13: “Absolute path” va “relative path”ning farqi nimada?
+1) Absolute doim joriy katalogga bog‘liq
+2) Relative joriy katalogga bog‘liq, absolute esa to‘liq yo‘l
+3) Ikkalasi bir xil
+4) Path faqat Windowsda bor
+Correct option: 2
+---
+Q14: “Autocomplete” (tab completion) nimaga yordam beradi?
+1) Buyruq/fayl nomlarini tez to‘ldirish va xatoni kamaytirish
+2) Diskni formatlash
+3) Internet tezligini oshirish
+4) RAMni ko‘paytirish
+Correct option: 1
+---
+Q15: Root huquqi bilan ishlashdagi asosiy risk qaysi?
+1) Hech qanday risk yo‘q
+2) Noto‘g‘ri buyruq tizimga katta zarar yetkazishi mumkin
+3) Faqat printer ishlamay qoladi
+4) Faqat brauzer yopiladi
+Correct option: 2
+---
+Q16: Unixda `ls` va `LS` bir xil buyruq bo‘lishi shart.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 2
+---
+Q17: Terminalda pipeline konsepsiyasi buyruqlarni zanjirlashga yordam beradi.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q18: Relative pathlar joriy katalog o‘zgarsa, boshqacha manzilga ishora qilishi mumkin.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q19: Admin/root huquqlari barcha foydalanuvchilarga doim berilgan bo‘ladi.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 2
+---
+Q20: Terminal buyruqlari tarixini (history) ishlatish takroriy ishlarni tezlashtiradi.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---

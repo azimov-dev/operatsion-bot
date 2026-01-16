@@ -1,0 +1,158 @@
+# 9-mavzu: Parallel dasturlash, noaniq holatlar, Harmony, kritik kesim — test
+
+## Variantli savollar (A/B/C/D)
+
+1. Parallel dasturlashning asosiy maqsadlaridan biri qaysi?
+
+- A) Bitta protsessorda hamma ishni ketma-ket bajarish
+- B) Ish yukini bir vaqtda bajarib, tezlik/samaradorlikni oshirish
+- C) Diskni tozalash hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- D) GUI chizish va oynali interfeys elementlarini boshqarish
+
+2. Noaniq (nondeterministic) holat nimadan kelib chiqadi?
+
+- A) Kompilyator doim bir xil tartibda ishlagani uchun
+- B) Oqim/jarayonlar bajarilish tartibi o‘zgaruvchan bo‘lgani uchun
+- C) Monitor o‘lchami uchun va unga yaqin yordamchi vazifalarni bajarish
+- D) Internet tezligi uchun va unga yaqin yordamchi vazifalarni bajarish
+
+3. Data race (ma’lumot poygasi) qachon yuz beradi?
+
+- A) Ikki oqim bir xil ma’lumotni sinxronizatsiyasiz yozsa/yozib-o‘qisa
+- B) Bitta oqim bo‘lsa va unga yaqin yordamchi vazifalarni bajarish
+- C) Disk o‘qilganda hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- D) Printer bosganda va qurilmalarni ulash hamda drayverlarni boshqarish
+
+4. Kritik kesim (critical section) nimani himoya qiladi?
+
+- A) Umumiy resurs/ma’lumotga xavfsiz kirishni
+- B) Wi‑Fi parolini va unga yaqin yordamchi vazifalarni bajarish
+- C) BIOS sozlamasini va firmware (UEFI/BIOS) sozlamalari bilan ishlash
+- D) Brauzer tarixini va unga yaqin yordamchi vazifalarni bajarish
+
+5. Mutual exclusion (o‘zaro istisno) talabi nimani bildiradi?
+
+- A) Bir vaqtning o‘zida bir nechta oqim kritik kesimda bo‘lishi
+- B) Bir vaqtning o‘zida faqat bitta oqim kritik kesimga kirishi
+- C) Hech kim kritik kesimga kirmasligi va unga yaqin yordamchi vazifalarni bajarish
+- D) Admin kirishi va unga yaqin yordamchi vazifalarni bajarish
+
+6. Parallelizm modeli sifatida SIMD nimani anglatadi?
+
+- A) Single Instruction, Multiple Data
+- B) Single Internet, Multiple Devices va unga yaqin yordamchi vazifalarni bajarish
+- C) System Interrupt, Memory Dump va xotiradan foydalanishni nazorat qilish
+- D) Secure Input, Mixed Data va unga yaqin yordamchi vazifalarni bajarish
+
+7. SPMD modeli nimaga yaqin?
+
+- A) Turli instruktsiyalar, bitta ma’lumot
+- B) Bitta dastur (program) ko‘p ma’lumot ustida parallel bajariladi
+- C) Ketma-ket bajariladi va unga yaqin yordamchi vazifalarni bajarish
+- D) Tarmoq protokoli va tarmoq trafikini filtrlash/marshrutlash qoidalarini sozlash
+
+8. Kritik kesim muammosini hal qilish uchun qaysi yondashuv mos?
+
+- A) Lock/mutex, semafor, monitor kabi sinxronizatsiya vositalari
+- B) Tasodifiy kutish va unga yaqin yordamchi vazifalarni bajarish
+- C) Fayl kengaytmasini o‘zgartirish va unga yaqin yordamchi vazifalarni bajarish
+- D) Ekran o‘lchamini o‘zgartirish va unga yaqin yordamchi vazifalarni bajarish
+
+9. “Atomic operation” nimani anglatadi?
+
+- A) Bo‘linib ketadigan amal va unga yaqin yordamchi vazifalarni bajarish
+- B) Bo‘linmaydigan, to‘liq bajariladigan amal
+- C) Tarmoq amali va tarmoq trafikini filtrlash/marshrutlash qoidalarini sozlash
+- D) Disk amali hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+
+10. “Interleaving” tushunchasi nimaga yaqin?
+
+- A) Oqimlar amallarining aralashib ketishi (turli tartibda almashish)
+- B) Disk bo‘limi hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- C) Printer navbati va qurilmalarni ulash hamda drayverlarni boshqarish
+- D) BIOS menyusi va firmware (UEFI/BIOS) sozlamalari bilan ishlash
+
+11. “Liveness” xususiyati nimani anglatadi?
+
+- A) Dastur oxir-oqibat oldinga siljiydi (tizim “tirik”)
+- B) Rang va unga yaqin yordamchi vazifalarni bajarish
+- C) Disk hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- D) Internet va unga yaqin yordamchi vazifalarni bajarish
+
+12. “Safety” xususiyati nimani anglatadi?
+
+- A) Noto‘g‘ri holat sodir bo‘lmasligi (safety)
+- B) CPU doim bo‘sh va unga yaqin yordamchi vazifalarni bajarish
+- C) Disk doim to‘ladi hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- D) Internet doim yoqilgan va unga yaqin yordamchi vazifalarni bajarish
+
+13. “Critical section problem”ning klassik talablari qaysilar?
+
+- A) Mutual exclusion, progress, bounded waiting
+- B) Tezlik va unga yaqin yordamchi vazifalarni bajarish
+- C) Dizayn va unga yaqin yordamchi vazifalarni bajarish
+- D) RAM va xotiradan foydalanishni nazorat qilish
+
+14. “Bounded waiting” nimani bildiradi?
+
+- A) Oqim kritik kesimga kirishi cheksiz kechiktirilmaydi
+- B) Hech kim kirmaydi va unga yaqin yordamchi vazifalarni bajarish
+- C) Yozuvchi kiradi va unga yaqin yordamchi vazifalarni bajarish
+- D) O‘quvchi kiradi va unga yaqin yordamchi vazifalarni bajarish
+
+15. Parallelizmda “deterministic” natija nimani bildiradi?
+
+- A) Har ishga tushirishda bir xil natija
+- B) Har safar turlicha va unga yaqin yordamchi vazifalarni bajarish
+- C) Tarmoqga bog‘liq va tarmoq trafikini filtrlash/marshrutlash qoidalarini sozlash
+- D) Diskga bog‘liq hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+
+## To‘g‘ri / Noto‘g‘ri
+
+16. Parallel dasturlashda natija doim bir xil bo‘lishi kafolatlanadi.
+
+- A) To‘g‘ri
+- B) Noto‘g‘ri
+
+17. Kritik kesim noto‘g‘ri boshqarilsa, “race condition” yuzaga kelishi mumkin.
+
+- A) To‘g‘ri
+- B) Noto‘g‘ri
+
+18. Atomic amal bo‘linib ketmaydi va aralashib bajarilmaydi.
+
+- A) To‘g‘ri
+- B) Noto‘g‘ri
+
+19. Mutual exclusion talabi buzilsa, ma’lumot buzilishi ehtimoli oshadi.
+
+- A) To‘g‘ri
+- B) Noto‘g‘ri
+
+20. Bounded waiting talabi starvationni kamaytirishga yordam beradi.
+
+- A) To‘g‘ri
+- B) Noto‘g‘ri
+
+## Javoblar kaliti
+
+1. B
+2. B
+3. A
+4. A
+5. B
+6. A
+7. B
+8. A
+9. B
+10. A
+11. A
+12. A
+13. A
+14. A
+15. A
+16. B
+17. A
+18. A
+19. A
+20. A

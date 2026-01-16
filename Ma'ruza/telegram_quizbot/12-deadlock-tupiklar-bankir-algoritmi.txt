@@ -1,0 +1,130 @@
+Q1: Deadlock (tupik) nima?
+1) CPU har doim bo‘sh bo‘lishi
+2) Jarayonlar bir-biridagi resursni kutib, hech biri davom eta olmay qolishi
+3) Disk tezligi oshishi
+4) Tarmoq ping kamayishi
+Correct option: 2
+---
+Q2: Deadlock uchun zaruriy shartlardan biri “Mutual exclusion” nimani anglatadi?
+1) Resursni bir vaqtning o‘zida bir nechta jarayon ishlatishi
+2) Resurs bir vaqtning o‘zida faqat bitta jarayonga berilishi
+3) Resurs hech kimga berilmasligi
+4) Resurs faqat tarmoqda bo‘lishi
+Correct option: 2
+---
+Q3: “Hold and wait” sharti nimani bildiradi?
+1) Jarayon resurs ushlab turib, qo‘shimcha resurs kutadi
+2) Jarayon hech narsa ushlamaydi
+3) Jarayon faqat CPUni kutadi
+4) Jarayon faqat diskni bo‘shatadi
+Correct option: 1
+---
+Q4: “No preemption” sharti nimani anglatadi?
+1) Resurs majburan tortib olinishi mumkin
+2) Resurs jarayondan majburan tortib olinmaydi; jarayon o‘zi bo‘shatadi
+3) CPU doim uziladi
+4) Xotira doim to‘ladi
+Correct option: 2
+---
+Q5: “Circular wait” sharti nimani bildiradi?
+1) Jarayonlar chiziqli navbatda turadi
+2) Resurs kutish sikli (P1 P2 ni, P2 P3 ni, ... Pn P1 ni kutadi)
+3) Faqat bitta jarayon bor
+4) Faqat disk sikli
+Correct option: 2
+---
+Q6: Deadlock oldini olishning klassik yo‘li qaysi?
+1) Zaruriy shartlardan kamida bittasini inkor qilish
+2) Diskni formatlash
+3) Internetni o‘chirish
+4) CPU chastotasini oshirish
+Correct option: 1
+---
+Q7: Deadlock aniqlash (detection) nimani anglatadi?
+1) Tupikni umuman bo‘lmasligini kafolatlash
+2) Tupik sodir bo‘lganini topish (masalan, resurs grafigi/algoritm bilan)
+3) Faqat foydalanuvchini bloklash
+4) Faqat logni o‘chirish
+Correct option: 2
+---
+Q8: Bankir algoritmi qanday maqsadga xizmat qiladi?
+1) Xavfsiz holatni tekshirib, xavfsiz bo‘lmagan resurs ajratishni rad etish
+2) Diskni bo‘lish
+3) Paketlarni filtrlash
+4) Ekranni sozlash
+Correct option: 1
+---
+Q9: “Resource Allocation Graph” (resurs taqsimlash grafigi) nimaga xizmat qiladi?
+1) Jarayon–resurs munosabatlarini ko‘rsatish va tupikni tahlil qilish
+2) Internet tezligini o‘lchash
+3) Disk bo‘limini yaratish
+4) GUI chizish
+Correct option: 1
+---
+Q10: Deadlockdan qochish (avoidance) yondashuvi nimaga tayangan?
+1) Resurs ajratishda xavfsiz holatni saqlash
+2) Resursni hech qachon bermaslik
+3) Diskni formatlash
+4) Tarmoqni uzish
+Correct option: 1
+---
+Q11: Deadlock prevention (oldini olish) g‘oyasi qaysi?
+1) Zaruriy shartlardan birini buzadigan siyosat o‘rnatish
+2) Tupik bo‘lsa ham davom etish
+3) Faqat log yozish
+4) Faqat UI
+Correct option: 1
+---
+Q12: Detection and recovery yondashuvi nimani anglatadi?
+1) Tupik bo‘lishini butunlay yo‘q qilish
+2) Tupikni aniqlash va keyin tiklash choralarini ko‘rish
+3) Diskni bo‘lish
+4) Internetni tezlatish
+Correct option: 2
+---
+Q13: Recovery usullaridan biri qaysi?
+1) Jarayon(lar)ni tugatish
+2) Monitor rangini o‘zgartirish
+3) Klaviaturani almashtirish
+4) DNSni o‘zgartirish
+Correct option: 1
+---
+Q14: Resurslarni tartibli olish (ordering) qaysi shartni buzishga yordam beradi?
+1) Circular wait
+2) Mutual exclusion
+3) No preemption
+4) Hold and wait
+Correct option: 1
+---
+Q15: “Safe sequence” tushunchasi Bankir algoritmida nimani anglatadi?
+1) Jarayonlar shunday tartibda tugay oladiki, hech kim tupikka tushmaydi
+2) Disk sektorlari tartibi
+3) Internet paketlari
+4) UI ketma-ketligi
+Correct option: 1
+---
+Q16: Deadlock har doim resurslar soni juda ko‘p bo‘lganda yuz beradi.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 2
+---
+Q17: Deadlockdan tiklash usullariga jarayonlarni tugatish yoki resurslarni majburan qaytarib olish kirishi mumkin.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q18: Deadlock prevention tupik bo‘lishini nazariy jihatdan oldindan cheklashga urinadi.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q19: Circular wait sharti tupik uchun zarur shartlardan biridir.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q20: Bankir algoritmi resurslarni tasodifiy ajratadi.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 2
+---

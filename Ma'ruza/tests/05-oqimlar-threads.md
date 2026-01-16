@@ -1,0 +1,158 @@
+# 5-mavzu: Operatsion tizimlarda oqimlar (threads) — test
+
+## Variantli savollar (A/B/C/D)
+
+1. Oqim (thread) nima?
+
+- A) Mustaqil disk bo‘limi hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- B) Jarayon ichidagi bajarilish oqimi (thread) — eng kichik rejalashtiriladigan birlik
+- C) Tarmoq kabeli va tarmoq trafikini filtrlash/marshrutlash qoidalarini sozlash
+- D) Fayl turi va unga yaqin yordamchi vazifalarni bajarish
+
+2. Bir jarayondagi oqimlar odatda nimani bo‘lishadi?
+
+- A) Har biri alohida adres makoni va unga yaqin yordamchi vazifalarni bajarish
+- B) Adres makoni umumiy; stack/registrlar alohida
+- C) Ekran va unga yaqin yordamchi vazifalarni bajarish
+- D) BIOS sozlamalari va firmware (UEFI/BIOS) sozlamalari bilan ishlash
+
+3. Jarayon va oqim o‘rtasidagi muhim farq qaysi?
+
+- A) Oqimlar odatda yengilroq va kontekst almashishi tezroq
+- B) Jarayonlar hech qachon rejalashtirilmaydi
+- C) Oqimlar doim alohida kompyuterda ishlaydi
+- D) Jarayonlar hech qachon xotira ishlatmaydi va xotiradan foydalanishni nazorat qilish
+
+4. “User-level threads”ning kamchiligi sifatida ko‘p uchraydigani qaysi?
+
+- A) Yadro ko‘rmaydi; bloklovchi chaqiriq butun jarayonni to‘xtatishi mumkin
+- B) Har doim yadroda ishlaydi va unga yaqin yordamchi vazifalarni bajarish
+- C) GPU bilan ishlaydi va unga yaqin yordamchi vazifalarni bajarish
+- D) Hech qanday kamchiligi yo‘q va unga yaqin yordamchi vazifalarni bajarish
+
+5. “Kernel-level threads”ning afzalligi qaysi?
+
+- A) Yadro rejalashtiradi; bir oqim bloklansa ham boshqalari ishlashi mumkin
+- B) Umuman sinxronizatsiya kerak emas va unga yaqin yordamchi vazifalarni bajarish
+- C) Bitta yadroda ishlaydi va unga yaqin yordamchi vazifalarni bajarish
+- D) Oqimlar bir-birini ko‘rmaydi va unga yaqin yordamchi vazifalarni bajarish
+
+6. Ko‘p oqimlilik (multithreading) nima uchun foydali bo‘lishi mumkin?
+
+- A) I/O kutish davrida boshqa ishni bajarish orqali samaradorlikni oshiradi
+- B) Har doim diskni kichraytiradi hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- C) Har doim tarmoqni o‘chiradi va tarmoq trafikini filtrlash/marshrutlash qoidalarini sozlash
+- D) Har doim xatoni yo‘q qiladi va unga yaqin yordamchi vazifalarni bajarish
+
+7. Race condition (poyga holati) nimaga olib keladi?
+
+- A) Natija oqimlar bajarilish tartibiga bog‘liq bo‘lib, noaniq bo‘lishi
+- B) Har doim to‘g‘ri natija va unga yaqin yordamchi vazifalarni bajarish
+- C) Grafika xatolari va oynali interfeys elementlarini boshqarish
+- D) Printer muammosi va qurilmalarni ulash hamda drayverlarni boshqarish
+
+8. Kritik qism (critical section) nima?
+
+- A) Kommentariya qismi va unga yaqin yordamchi vazifalarni bajarish
+- B) Bir vaqtning o‘zida faqat bitta oqim kirishi kerak bo‘lgan kod bo‘lagi
+- C) Drayverlar ro‘yxati va qurilmalarni ulash hamda drayverlarni boshqarish
+- D) BIOS menyusi va firmware (UEFI/BIOS) sozlamalari bilan ishlash
+
+9. “Thread scheduling” nimani anglatishi mumkin?
+
+- A) Oqimlarni CPUda bajarish tartibi va vaqtini rejalashtirish
+- B) Disk bo‘limi hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- C) Fayl siqish va unga yaqin yordamchi vazifalarni bajarish
+- D) Monitor rejimi va unga yaqin yordamchi vazifalarni bajarish
+
+10. “Thread-safe” kod nimani bildiradi?
+
+- A) Bir oqimda ishlasa bo‘ldi va unga yaqin yordamchi vazifalarni bajarish
+- B) Bir nechta oqim parallel ishlaganda ham to‘g‘ri natija va xavfsiz holat
+- C) Internet bor va unga yaqin yordamchi vazifalarni bajarish
+- D) GUI va oynali interfeys elementlarini boshqarish
+
+11. “Deadlock” oqimlar kontekstida nimaga o‘xshaydi?
+
+- A) Ikkala oqim bir-biridagi lockni kutib qolishi
+- B) Disk tezligi oshishi hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- C) Monitor yorqinligi va unga yaqin yordamchi vazifalarni bajarish
+- D) Fayl kengaytmasi va unga yaqin yordamchi vazifalarni bajarish
+
+12. “Starvation” (och qolish) nimani anglatadi?
+
+- A) Oqim resurs/CPUga juda uzoq vaqt navbat kelmasligi
+- B) Disk bo‘limi hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- C) RAMni ko‘payishi va xotiradan foydalanishni nazorat qilish
+- D) Tarmoq ping va tarmoq trafikini filtrlash/marshrutlash qoidalarini sozlash
+
+13. “Join” amali (ko‘p tillarda) ko‘proq nimaga yaqin?
+
+- A) Ota oqimning boshqa oqim tugashini kutishi
+- B) Diskni formatlash hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- C) Internetga ulanish va unga yaqin yordamchi vazifalarni bajarish
+- D) Faylni ko‘chirish va unga yaqin yordamchi vazifalarni bajarish
+
+14. “Synchronization” vositalari qaysilar bo‘lishi mumkin?
+
+- A) Mutex/lock, semafor, condition variable
+- B) Printer va qurilmalarni ulash hamda drayverlarni boshqarish
+- C) BIOS va firmware (UEFI/BIOS) sozlamalari bilan ishlash
+- D) DNS va unga yaqin yordamchi vazifalarni bajarish
+
+15. “Context switch” oqimlar uchun jarayonlarga nisbatan ko‘pincha:
+
+- A) Og‘irroq va unga yaqin yordamchi vazifalarni bajarish
+- B) Yengilroq (lekin baribir xarajatga ega)
+- C) Umuman bo‘lmaydi va unga yaqin yordamchi vazifalarni bajarish
+- D) Diskda bo‘ladi hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+
+## To‘g‘ri / Noto‘g‘ri
+
+16. Oqimlar bir jarayonda umumiy heapni bo‘lishadi.
+
+- A) To‘g‘ri
+- B) Noto‘g‘ri
+
+17. Ko‘p oqimlilik har doim tezlikni oshiradi, hech qachon sekinlashmaydi.
+
+- A) To‘g‘ri
+- B) Noto‘g‘ri
+
+18. Race condition natijasi bajarilish tartibiga bog‘liq bo‘lishi mumkin.
+
+- A) To‘g‘ri
+- B) Noto‘g‘ri
+
+19. User-level threadlar yadro tomonidan doim alohida rejalashtiriladi.
+
+- A) To‘g‘ri
+- B) Noto‘g‘ri
+
+20. Threadlar alohida adres makoniga ega bo‘lmagani uchun ularda sinxronizatsiya kerak bo‘lmaydi.
+
+- A) To‘g‘ri
+- B) Noto‘g‘ri
+
+## Javoblar kaliti
+
+1. B
+2. B
+3. A
+4. A
+5. A
+6. A
+7. A
+8. B
+9. A
+10. B
+11. A
+12. A
+13. A
+14. A
+15. B
+16. A
+17. B
+18. A
+19. B
+20. B

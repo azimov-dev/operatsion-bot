@@ -1,0 +1,130 @@
+Q1: Parallel dasturlashning asosiy maqsadlaridan biri qaysi?
+1) Bitta protsessorda hamma ishni ketma-ket bajarish
+2) Ish yukini bir vaqtda bajarib, tezlik/samaradorlikni oshirish
+3) Faqat diskni tozalash
+4) Faqat GUI chizish
+Correct option: 2
+---
+Q2: Noaniq (nondeterministic) holat nimadan kelib chiqadi?
+1) Kompilyator doim bir xil tartibda ishlagani uchun
+2) Oqim/jarayonlar bajarilish tartibi o‘zgaruvchan bo‘lgani uchun
+3) Faqat monitor o‘lchami uchun
+4) Faqat internet tezligi uchun
+Correct option: 2
+---
+Q3: Data race (ma’lumot poygasi) qachon yuz beradi?
+1) Ikki oqim bir xil ma’lumotni sinxronizatsiyasiz yozsa/yozib-o‘qisa
+2) Faqat bitta oqim bo‘lsa
+3) Faqat disk o‘qilganda
+4) Faqat printer bosganda
+Correct option: 1
+---
+Q4: Kritik kesim (critical section) nimani himoya qiladi?
+1) Umumiy resurs/ma’lumotga xavfsiz kirishni
+2) Wi‑Fi parolini
+3) BIOS sozlamasini
+4) Brauzer tarixini
+Correct option: 1
+---
+Q5: Mutual exclusion (o‘zaro istisno) talabi nimani bildiradi?
+1) Bir vaqtning o‘zida bir nechta oqim kritik kesimda bo‘lishi
+2) Bir vaqtning o‘zida faqat bitta oqim kritik kesimga kirishi
+3) Hech kim kritik kesimga kirmasligi
+4) Faqat admin kirishi
+Correct option: 2
+---
+Q6: Parallelizm modeli sifatida SIMD nimani anglatadi?
+1) Single Instruction, Multiple Data
+2) Single Internet, Multiple Devices
+3) System Interrupt, Memory Dump
+4) Secure Input, Mixed Data
+Correct option: 1
+---
+Q7: SPMD modeli nimaga yaqin?
+1) Turli instruktsiyalar, bitta ma’lumot
+2) Bitta dastur (program) ko‘p ma’lumot ustida parallel bajariladi
+3) Faqat ketma-ket bajariladi
+4) Faqat tarmoq protokoli
+Correct option: 2
+---
+Q8: Kritik kesim muammosini hal qilish uchun qaysi yondashuv mos?
+1) Lock/mutex, semafor, monitor kabi sinxronizatsiya vositalari
+2) Tasodifiy kutish
+3) Fayl kengaytmasini o‘zgartirish
+4) Ekran o‘lchamini o‘zgartirish
+Correct option: 1
+---
+Q9: “Atomic operation” nimani anglatadi?
+1) Bo‘linib ketadigan amal
+2) Bo‘linmaydigan, to‘liq bajariladigan amal
+3) Faqat tarmoq amali
+4) Faqat disk amali
+Correct option: 2
+---
+Q10: “Interleaving” tushunchasi nimaga yaqin?
+1) Oqimlar amallarining aralashib ketishi (turli tartibda almashish)
+2) Disk bo‘limi
+3) Printer navbati
+4) BIOS menyusi
+Correct option: 1
+---
+Q11: “Liveness” xususiyati nimani anglatadi?
+1) Dastur oxir-oqibat oldinga siljiydi (tizim “tirik”)
+2) Faqat rang
+3) Faqat disk
+4) Faqat internet
+Correct option: 1
+---
+Q12: “Safety” xususiyati nimani anglatadi?
+1) Noto‘g‘ri holat hech qachon sodir bo‘lmasligi (masalan, ikki oqim bir vaqtda kritik kesimda emas)
+2) CPU doim bo‘sh
+3) Disk doim to‘ladi
+4) Internet doim yoqilgan
+Correct option: 1
+---
+Q13: “Critical section problem”ning klassik talablari qaysilar?
+1) Mutual exclusion, progress, bounded waiting
+2) Faqat tezlik
+3) Faqat dizayn
+4) Faqat RAM
+Correct option: 1
+---
+Q14: “Bounded waiting” nimani bildiradi?
+1) Oqim kritik kesimga kirishi cheksiz kechiktirilmaydi
+2) Hech kim kirmaydi
+3) Faqat yozuvchi kiradi
+4) Faqat o‘quvchi kiradi
+Correct option: 1
+---
+Q15: Parallelizmda “deterministic” natija nimani bildiradi?
+1) Har ishga tushirishda bir xil natija
+2) Har safar turlicha
+3) Faqat tarmoqga bog‘liq
+4) Faqat diskga bog‘liq
+Correct option: 1
+---
+Q16: Parallel dasturlashda natija doim bir xil bo‘lishi kafolatlanadi.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 2
+---
+Q17: Kritik kesim noto‘g‘ri boshqarilsa, “race condition” yuzaga kelishi mumkin.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q18: Atomic amal bo‘linib ketmaydi va aralashib bajarilmaydi.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q19: Mutual exclusion talabi buzilsa, ma’lumot buzilishi ehtimoli oshadi.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q20: Bounded waiting talabi starvationni kamaytirishga yordam beradi.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---

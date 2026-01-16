@@ -1,0 +1,158 @@
+# 7-mavzu: Buyruqlar terminallari (Windows CMD/PowerShell, Unix terminal) — test
+
+## Variantli savollar (A/B/C/D)
+
+1. Terminal/command line interfeysning asosiy afzalligi qaysi?
+
+- A) Rasm chizish va unga yaqin yordamchi vazifalarni bajarish
+- B) Avtomatlashtirish va skriptlash imkoniyati
+- C) O‘yin o‘ynash va unga yaqin yordamchi vazifalarni bajarish
+- D) Grafik dizayn va oynali interfeys elementlarini boshqarish
+
+2. PowerShellning klassik CMDdan farqli kuchli tomoni ko‘pincha nimada?
+
+- A) Obyektlar bilan ishlash (pipeline orqali obyekt uzatish)
+- B) Matn chiqarish va hujjat/taqdimot kabi ofis ilovalari bilan ishlash
+- C) Eski buyruqlar va unga yaqin yordamchi vazifalarni bajarish
+- D) BIOS boshqarish va firmware (UEFI/BIOS) sozlamalari bilan ishlash
+
+3. Unix/Linux terminalida “case-sensitive” degani nima?
+
+- A) Harflar registri farq qilmaydi va unga yaqin yordamchi vazifalarni bajarish
+- B) `File` va `file` turli nomlar hisoblanadi
+- C) Raqamlar ishlaydi va unga yaqin yordamchi vazifalarni bajarish
+- D) Katta harf ishlaydi va unga yaqin yordamchi vazifalarni bajarish
+
+4. “Working directory” (joriy ishchi katalog) nimani bildiradi?
+
+- A) Printer navbati va qurilmalarni ulash hamda drayverlarni boshqarish
+- B) Buyruqlar nisbiy yo‘llarni (relative path) hisoblaydigan katalog
+- C) BIOS menyusi va firmware (UEFI/BIOS) sozlamalari bilan ishlash
+- D) Internet manzili va unga yaqin yordamchi vazifalarni bajarish
+
+5. Nisbiy yo‘l (relative path) misoli qaysi?
+
+- A) `/home/user/docs` va unga yaqin yordamchi vazifalarni bajarish
+- B) `C:\\Windows\\System32` va unga yaqin yordamchi vazifalarni bajarish
+- C) `../docs`
+- D) `https://example.com` va unga yaqin yordamchi vazifalarni bajarish
+
+6. Mutlaq yo‘l (absolute path) misoli qaysi?
+
+- A) `./run.sh` va unga yaqin yordamchi vazifalarni bajarish
+- B) `/etc/hosts`
+- C) `../bin` va unga yaqin yordamchi vazifalarni bajarish
+- D) `docs/file.txt` va unga yaqin yordamchi vazifalarni bajarish
+
+7. Shell/terminalda “history” g‘oyasi nimani anglatadi?
+
+- A) RAM tezligi va xotiradan foydalanishni nazorat qilish
+- B) Oldin kiritilgan buyruqlar ro‘yxati
+- C) Disk bo‘limlari hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- D) Tarmoq topologiyasi va tarmoq trafikini filtrlash/marshrutlash qoidalarini sozlash
+
+8. “Admin/root” huquqlarining maqsadi qaysi?
+
+- A) Musiqa eshitish va unga yaqin yordamchi vazifalarni bajarish
+- B) Tizim bo‘yicha privilegiyali amallarni bajarish
+- C) Klaviaturani yoqish va unga yaqin yordamchi vazifalarni bajarish
+- D) Browser keshini tozalash va unga yaqin yordamchi vazifalarni bajarish
+
+9. “Command prompt” (buyruqlar satri) nimani anglatadi?
+
+- A) Tizimning GUI qismi va oynali interfeys elementlarini boshqarish
+- B) Buyruq kiritish uchun interfeys va prompt belgisi
+- C) Printer drayveri va qurilmalarni ulash hamda drayverlarni boshqarish
+- D) Disk bo‘limi hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+
+10. “Shell” va “terminal” farqiga eng yaqin fikr qaysi?
+
+- A) Terminal — dastur/oyna; shell — buyruqlarni talqin qiluvchi muhit
+- B) Ikkalasi doim bir xil va unga yaqin yordamchi vazifalarni bajarish
+- C) Shell — apparat, terminal — drayver va qurilmalarni ulash hamda drayverlarni boshqarish
+- D) Terminal — yadro va unga yaqin yordamchi vazifalarni bajarish
+
+11. Copy-paste terminalda nimaga ehtiyot bo‘lish kerak?
+
+- A) Hech qachon xavf yo‘q va unga yaqin yordamchi vazifalarni bajarish
+- B) Noma’lum buyruqni tushunmasdan ishga tushirmaslik
+- C) Rang tanlash va unga yaqin yordamchi vazifalarni bajarish
+- D) Shrift va unga yaqin yordamchi vazifalarni bajarish
+
+12. “Environment variable”lar terminal ishlashiga qanday ta’sir qiladi?
+
+- A) Buyruqlar va dasturlar xatti-harakatini sozlashi mumkin
+- B) Monitor rangiga va unga yaqin yordamchi vazifalarni bajarish
+- C) Diskga hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- D) Hech qachon ta’sir qilmaydi va unga yaqin yordamchi vazifalarni bajarish
+
+13. “Absolute path” va “relative path”ning farqi nimada?
+
+- A) Absolute doim joriy katalogga bog‘liq
+- B) Relative joriy katalogga bog‘liq, absolute esa to‘liq yo‘l
+- C) Ikkalasi bir xil va unga yaqin yordamchi vazifalarni bajarish
+- D) Path faqat Windowsda bor va unga yaqin yordamchi vazifalarni bajarish
+
+14. “Autocomplete” (tab completion) nimaga yordam beradi?
+
+- A) Buyruq/fayl nomlarini tez to‘ldirish va xatoni kamaytirish
+- B) Diskni formatlash hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- C) Internet tezligini oshirish va unga yaqin yordamchi vazifalarni bajarish
+- D) RAMni ko‘paytirish va xotiradan foydalanishni nazorat qilish
+
+15. Root huquqi bilan ishlashdagi asosiy risk qaysi?
+
+- A) Hech qanday risk yo‘q va unga yaqin yordamchi vazifalarni bajarish
+- B) Noto‘g‘ri buyruq tizimga katta zarar yetkazishi mumkin
+- C) Printer ishlamay qoladi va qurilmalarni ulash hamda drayverlarni boshqarish
+- D) Brauzer yopiladi va unga yaqin yordamchi vazifalarni bajarish
+
+## To‘g‘ri / Noto‘g‘ri
+
+16. Unixda `ls` va `LS` bir xil buyruq bo‘lishi shart.
+
+- A) To‘g‘ri
+- B) Noto‘g‘ri
+
+17. Terminalda pipeline konsepsiyasi buyruqlarni zanjirlashga yordam beradi.
+
+- A) To‘g‘ri
+- B) Noto‘g‘ri
+
+18. Relative pathlar joriy katalog o‘zgarsa, boshqacha manzilga ishora qilishi mumkin.
+
+- A) To‘g‘ri
+- B) Noto‘g‘ri
+
+19. Admin/root huquqlari barcha foydalanuvchilarga doim berilgan bo‘ladi.
+
+- A) To‘g‘ri
+- B) Noto‘g‘ri
+
+20. Terminal buyruqlari tarixini (history) ishlatish takroriy ishlarni tezlashtiradi.
+
+- A) To‘g‘ri
+- B) Noto‘g‘ri
+
+## Javoblar kaliti
+
+1. B
+2. A
+3. B
+4. B
+5. C
+6. B
+7. B
+8. B
+9. B
+10. A
+11. B
+12. A
+13. B
+14. A
+15. B
+16. B
+17. A
+18. A
+19. B
+20. A

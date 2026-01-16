@@ -1,0 +1,130 @@
+Q1: Condition variable (shart o‘zgaruvchisi)ning asosiy roli qaysi?
+1) Disk bo‘limini yaratish
+2) Oqimlarni shart bajarilmaguncha uxlatish va signal bilan uyg‘otish
+3) Internetni sozlash
+4) Matnni tarjima qilish
+Correct option: 2
+---
+Q2: Condition variable odatda qaysi bilan birga ishlatiladi?
+1) Mutex/lock
+2) Printer drayveri
+3) BIOS
+4) GPU
+Correct option: 1
+---
+Q3: “Busy waiting”ga nisbatan condition variable afzalligi nimada?
+1) CPUni behuda band qilmasdan kutadi
+2) Doim sekinroq
+3) Diskni ko‘paytiradi
+4) Internetni o‘chiradi
+Correct option: 1
+---
+Q4: “Signal” (notify) nimani anglatadi?
+1) Oqimni abadiy to‘xtatish
+2) Kutayotgan oqim(lar)ga shart o‘zgarganini bildirish
+3) Faylni o‘chirish
+4) Tarmoqni uzish
+Correct option: 2
+---
+Q5: Producer–Consumer muammosida condition variable qayerda qo‘l keladi?
+1) Bufer bo‘sh/to‘la bo‘lganda kutish va uyg‘otish
+2) Faqat disk tezligi
+3) Faqat monitor
+4) Faqat printer
+Correct option: 1
+---
+Q6: Reader/Writer lock g‘oyasi qaysi?
+1) Faqat bitta o‘quvchi bo‘lishi
+2) Ko‘p o‘quvchi bir vaqtda, lekin yozuvchi eksklyuziv
+3) Yozuvchilar doim ustun
+4) O‘quvchilar doim bloklanadi
+Correct option: 2
+---
+Q7: Reader/Writer lockda muammoli holat sifatida qaysi tez-tez uchraydi?
+1) Starvation (masalan, yozuvchi uzoq kutib qolishi)
+2) Disk sektori yo‘qolishi
+3) Monitor sinishi
+4) Tarmoq kabeli uzilishi
+Correct option: 1
+---
+Q8: “Spurious wakeup” (asossiz uyg‘onish) sababli qanday amaliy qoida ishlatiladi?
+1) Shartni `if` bilan bir marta tekshirish
+2) Shartni `while` siklida qayta-qayta tekshirib kutish
+3) Umuman tekshirmaslik
+4) Faqat `sleep` ishlatish
+Correct option: 2
+---
+Q9: Condition variableda “wait” bajarilganda odatda nima sodir bo‘ladi?
+1) Oqim mutexni bo‘shatib, kutish holatiga o‘tadi
+2) Oqim mutexni abadiy ushlab turadi
+3) Disk formatlanadi
+4) Internet uziladi
+Correct option: 1
+---
+Q10: “Broadcast” (notify_all) nimaga xizmat qiladi?
+1) Bitta oqimni uyg‘otadi
+2) Bir nechta kutayotgan oqimlarni uyg‘otadi
+3) Faqat fayl yaratadi
+4) Faqat tarmoqni o‘chiradi
+Correct option: 2
+---
+Q11: Producer-Consumer muammosida odatda qanday shartlar tekshiriladi?
+1) Bufer bo‘shmi / to‘lami
+2) Monitor kattami
+3) Disk bo‘limi
+4) IP manzil
+Correct option: 1
+---
+Q12: Reader/Writer lockning maqsadi qaysi?
+1) O‘qish ko‘p bo‘lgan holatda parallel o‘qishni ruxsat qilib, yozishni himoyalash
+2) Faqat yozishga ruxsat
+3) Faqat o‘qishga ruxsat
+4) Umuman lock ishlatmaslik
+Correct option: 1
+---
+Q13: Writer-preference siyosati nimaga olib kelishi mumkin?
+1) Reader starvation
+2) Disk to‘lishi
+3) RAM yo‘qolishi
+4) Internet uzilishi
+Correct option: 1
+---
+Q14: Reader-preference siyosati nimaga olib kelishi mumkin?
+1) Writer starvation
+2) Disk bo‘limi
+3) Printer navbati
+4) BIOS xatosi
+Correct option: 1
+---
+Q15: Condition variable va mutex tandemining asosiy sababi qaysi?
+1) Shart tekshiruvini va uyg‘otish/kutishni atomikroq (race’siz) tashkil qilish
+2) Diskni tezlatish
+3) Internetni tezlatish
+4) GUI chizish
+Correct option: 1
+---
+Q16: Condition variable yordamida kutayotgan oqim odatda mutexni bo‘shatib, uxlashga o‘tadi.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q17: Reader/Writer lock mutlaqo hech qachon starvationga olib kelmaydi.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 2
+---
+Q18: “Signal” berishdan oldin shartni o‘zgartirish (state update) muhim bo‘lishi mumkin.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q19: Spurious wakeup bo‘lishi mumkinligi uchun `while` bilan tekshiruv ishlatiladi.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q20: Reader/Writer lock faqat bitta o‘quvchini ruxsat qiladi.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 2
+---

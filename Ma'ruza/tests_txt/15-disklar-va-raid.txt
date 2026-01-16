@@ -1,0 +1,109 @@
+? 1. HDDda ma’lumotlar odatda nimada saqlanadi?
+- A) RAMda va xotiradan foydalanishni nazorat qilish
++ B) Magnitlanish (magnetic) o‘zgarishlari sifatida disk plastinasida
+- C) Protsessor registrlarida va unga yaqin yordamchi vazifalarni bajarish
+- D) Bulutda va unga yaqin yordamchi vazifalarni bajarish
+
+? 2. Disk yuzasi mantiqan nimalarga bo‘linadi?
+- A) Paket va port va tarmoq trafikini filtrlash/marshrutlash qoidalarini sozlash
++ B) Trek (track) va sektor (sector)
+- C) URL va DNS va unga yaqin yordamchi vazifalarni bajarish
+- D) RGB kanallar va unga yaqin yordamchi vazifalarni bajarish
+
+? 3. “Seek time” nimani anglatadi?
+- A) Disk aylanish tezligi hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
++ B) Kalla (head)ning kerakli trekka ko‘chish vaqti
+- C) Fayl siqish vaqti va unga yaqin yordamchi vazifalarni bajarish
+- D) Internet ping va unga yaqin yordamchi vazifalarni bajarish
+
+? 4. “Rotational latency” nimani anglatadi?
++ A) Disk aylanishi tufayli kerakli sektor kelishini kutish
+- B) CPU kvanti va unga yaqin yordamchi vazifalarni bajarish
+- C) RAM kechikishi va xotiradan foydalanishni nazorat qilish
+- D) Tarmoq buferi va tarmoq trafikini filtrlash/marshrutlash qoidalarini sozlash
+
+? 5. RAIDning umumiy maqsadi qaysi?
+- A) Diskni kichraytirish hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
++ B) Ishlashni oshirish va/yoki ishonchlilikni kuchaytirish
+- C) Internetni tezlatish va unga yaqin yordamchi vazifalarni bajarish
+- D) Printerga yordam va qurilmalarni ulash hamda drayverlarni boshqarish
+
+? 6. RAID 0 nimani beradi?
+- A) Mirroring (ko‘paytirib saqlash) va unga yaqin yordamchi vazifalarni bajarish
++ B) Striping (bo‘lib yozish) orqali tezlik, lekin nosozlikka chidamlilik yo‘q
+- C) Parity bilan himoya va unga yaqin yordamchi vazifalarni bajarish
+- D) Bitta disk hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+
+? 7. RAID 1 nimani beradi?
+- A) Striping va unga yaqin yordamchi vazifalarni bajarish
++ B) Mirroring (ma’lumotni 2+ diskda nusxalash)
+- C) Parity va unga yaqin yordamchi vazifalarni bajarish
+- D) Hech qanday himoya va unga yaqin yordamchi vazifalarni bajarish
+
+? 8. RAID 5da asosiy g‘oya qaysi?
++ A) Parity ma’lumotini disklarga taqsimlab yozish
+- B) Mirroring va unga yaqin yordamchi vazifalarni bajarish
+- C) Bitta disk hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- D) SSD va unga yaqin yordamchi vazifalarni bajarish
+
+? 9. “Throughput” disk kontekstida nimani bildiradi?
++ A) Bir vaqt birligida uzatiladigan/o‘qiladigan ma’lumot hajmi
+- B) Monitor kechikishi va unga yaqin yordamchi vazifalarni bajarish
+- C) Internet ping va unga yaqin yordamchi vazifalarni bajarish
+- D) CPU kvanti va unga yaqin yordamchi vazifalarni bajarish
+
+? 10. HDDning ishlashiga eng ko‘p ta’sir qiladiganlardan biri qaysi?
++ A) Seek time va rotational latency
+- B) Fayl kengaytmasi va unga yaqin yordamchi vazifalarni bajarish
+- C) Monitor rangi va unga yaqin yordamchi vazifalarni bajarish
+- D) Klaviatura tili va unga yaqin yordamchi vazifalarni bajarish
+
+? 11. SSDning HDDga nisbatan umumiy afzalligi qaysi?
++ A) Mexanik qismlar yo‘qligi sababli kirish vaqti kichikroq
+- B) Har doim arzonroq va unga yaqin yordamchi vazifalarni bajarish
+- C) Har doim cheksiz umr va unga yaqin yordamchi vazifalarni bajarish
+- D) Serverda ishlaydi va unga yaqin yordamchi vazifalarni bajarish
+
+? 12. RAID 10 nimaga yaqin?
++ A) RAID 1 (mirror) + RAID 0 (stripe) kombinatsiyasi
+- B) Parity va unga yaqin yordamchi vazifalarni bajarish
+- C) Bitta disk hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- D) NFS va unga yaqin yordamchi vazifalarni bajarish
+
+? 13. Parityning maqsadi qaysi?
++ A) Nosoz diskni tiklashga yordam beruvchi ortiqcha axborot
+- B) Diskni kichraytirish hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- C) Internetni tezlatish va unga yaqin yordamchi vazifalarni bajarish
+- D) GUI chizish va oynali interfeys elementlarini boshqarish
+
+? 14. RAID qo‘llanganda ham zaxira nusxa (backup) kerak bo‘lishi mumkin, chunki:
++ A) RAID xatolik/o‘chirish/virus kabi mantiqiy yo‘qotishlardan himoya qilmaydi
+- B) RAID hamma narsani 100% himoya qiladi
+- C) Backup faqat SSDda va unga yaqin yordamchi vazifalarni bajarish
+- D) Backup faqat internet uchun va unga yaqin yordamchi vazifalarni bajarish
+
+? 15. “Hot spare” nimani anglatadi?
++ A) Massivda tayyor turgan zaxira disk (nosozlikda avtomatik qo‘shiladi)
+- B) Diskni qizdirish hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- C) Monitor rejimi va unga yaqin yordamchi vazifalarni bajarish
+- D) BIOS menyusi va firmware (UEFI/BIOS) sozlamalari bilan ishlash
+
+? 16. RAID 0da bitta disk ishdan chiqsa, massivdagi ma’lumotlar yo‘qolishi mumkin.
++ A) To‘g‘ri
+- B) Noto‘g‘ri
+
+? 17. SSDda mexanik seek time HDDga nisbatan odatda juda kichik bo‘ladi.
++ A) To‘g‘ri
+- B) Noto‘g‘ri
+
+? 18. RAID 1 odatda bitta disk nosozligiga chidamli bo‘lishi mumkin.
++ A) To‘g‘ri
+- B) Noto‘g‘ri
+
+? 19. Parity RAID darajalari yozishda qo‘shimcha hisob-kitob (overhead) keltirishi mumkin.
++ A) To‘g‘ri
+- B) Noto‘g‘ri
+
+? 20. Backup va RAID bir xil narsa.
+- A) To‘g‘ri
++ B) Noto‘g‘ri

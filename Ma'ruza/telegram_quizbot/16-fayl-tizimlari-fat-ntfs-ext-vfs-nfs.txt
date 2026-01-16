@@ -1,0 +1,130 @@
+Q1: Fayl tizimi (file system)ning asosiy vazifasi qaysi?
+1) Internet tezligini oshirish
+2) Fayllarni/kataloglarni saqlash, nomlash va ularga kirishni boshqarish
+3) CPUni sovitish
+4) Monitor rangini sozlash
+Correct option: 2
+---
+Q2: Katalog (directory) nima?
+1) Disk bo‘limi
+2) Fayllar va boshqa kataloglarga havolalar/yozuvlar saqlanadigan tuzilma
+3) Tarmoq protokoli
+4) Printer navbati
+Correct option: 2
+---
+Q3: FAT (File Allocation Table) g‘oyasi nimaga tayangan?
+1) Fayl bloklari zanjirini jadval orqali kuzatish
+2) Faqat shifrlash
+3) Faqat siqish
+4) Faqat internet
+Correct option: 1
+---
+Q4: NTFSning mashhur xususiyatlaridan biri qaysi?
+1) Umuman ruxsatlar (permissions) yo‘q
+2) ACL, journaling va boy meta-ma’lumot imkoniyatlari
+3) Faqat RAMda ishlaydi
+4) Faqat bitta fayl
+Correct option: 2
+---
+Q5: ext3/ext4da journaling nimaga xizmat qiladi?
+1) Diskni tezlashtirish uchun faqat kesh
+2) Elektr uzilishi/xato bo‘lganda tiklanishni osonlashtirish
+3) Tarmoq paketlarini filtrlash
+4) GPUni boshqarish
+Correct option: 2
+---
+Q6: “Inode” tushunchasi ko‘proq qaysi oilaga xos?
+1) Unix-like (ext\*) fayl tizimlari
+2) FAT
+3) URL
+4) BIOS
+Correct option: 1
+---
+Q7: VFS (Virtual File System)ning vazifasi qaysi?
+1) Faqat bitta fayl tizimini majburlash
+2) Turli fayl tizimlari uchun yagona abstraksiya/interfeys berish
+3) Faqat video format
+4) Faqat printer
+Correct option: 2
+---
+Q8: NFS (Network File System) nimani ta’minlaydi?
+1) Tarmoq orqali masofaviy fayl tizimini ulash (mount) va ishlatish
+2) CPU scheduling
+3) RAID parity
+4) BIOS yangilash
+Correct option: 1
+---
+Q9: “Mount” (ulash) nimani anglatadi?
+1) Fayl tizimini katalog daraxtiga bog‘lash
+2) Diskni formatlash
+3) Internetni tezlatish
+4) CPUni sovitish
+Correct option: 1
+---
+Q10: “File metadata” nimani o‘z ichiga olishi mumkin?
+1) Egasi, ruxsatlar, vaqtlar (mtime/ctime), o‘lcham
+2) Faqat videokarta modeli
+3) Faqat IP manzil
+4) Faqat BIOS versiya
+Correct option: 1
+---
+Q11: Journaling fayl tizimida jurnal nimaga yordam beradi?
+1) Nosozlikdan keyin fayl tizimini tezroq izchil holatga keltirish
+2) Diskni kichraytirish
+3) Internetni uzish
+4) Printer rangini oshirish
+Correct option: 1
+---
+Q12: “Permissions” (ruxsatlar) nimani boshqaradi?
+1) Kim o‘qishi/yozishi/bajarishi mumkinligini
+2) Monitor yorqinligini
+3) Tarmoq ping
+4) RAM tezligi
+Correct option: 1
+---
+Q13: “Hard link” nimaga yaqin?
+1) Bir inodega bir nechta nom (directory entry) ishora qilishi
+2) Faqat URL
+3) Faqat RAID
+4) Faqat BIOS
+Correct option: 1
+---
+Q14: “Symbolic link” nimaga yaqin?
+1) Boshqa fayl yo‘liga ishora qiluvchi maxsus fayl
+2) Disk bo‘limi
+3) Tarmoq kartasi
+4) Printer navbati
+Correct option: 1
+---
+Q15: “Fragmentation” fayl tizimida nimaga olib kelishi mumkin?
+1) Fayl bloklari tarqalib ketib, o‘qish samaradorligi pasayishi
+2) Internet tezligi oshishi
+3) RAM ko‘payishi
+4) Monitor tiniqligi
+Correct option: 1
+---
+Q16: Fayl tizimi faylni disk bloklariga qanday joylashishini (allocation) boshqaradi.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q17: VFS bo‘lmasa ham, OT bir vaqtning o‘zida bir nechta turli fayl tizimlarini qo‘llay olmaydi.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 2
+---
+Q18: NFS orqali masofaviy fayl tizimi lokaldek ko‘rinishi mumkin.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q19: Permissions faylga kim kirishini cheklay oladi.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q20: Hard link boshqa disk/partitionlar orasida ham doim ishlayveradi.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 2
+---

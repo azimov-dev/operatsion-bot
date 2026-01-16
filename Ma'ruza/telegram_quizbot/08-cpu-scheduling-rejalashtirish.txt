@@ -1,0 +1,130 @@
+Q1: CPU schedulingning asosiy vazifasi qaysi?
+1) Fayllarni shifrlash
+2) Tayyor jarayonlar orasidan protsessorda ishlaydiganini tanlash
+3) Printer rangini sozlash
+4) Diskni formatlash
+Correct option: 2
+---
+Q2: “Ready queue” nimani saqlaydi?
+1) Faqat tugagan jarayonlarni
+2) Xotirada turgan va bajarilishga tayyor jarayonlarni
+3) Faqat tarmoq paketlarini
+4) Faqat klaviatura hodisalarini
+Correct option: 2
+---
+Q3: “Job queue” nimani anglatadi?
+1) Faqat qurilma navbati
+2) Tizimdagi barcha jarayonlar to‘plami (kirgan ishlar)
+3) Faqat RAM bo‘lagi
+4) Faqat foydalanuvchi buyruqlari
+Correct option: 2
+---
+Q4: “Dispatcher”ning vazifasi qaysi?
+1) Faylni siqish
+2) Tanlangan jarayonga CPUni berish va kontekst almashishni bajarish
+3) Tarmoqni o‘chirish
+4) Drayver o‘rnatish
+Correct option: 2
+---
+Q5: FCFS algoritmida qaysi prinsip ishlaydi?
+1) Eng qisqa ish birinchi
+2) Birinchi kelgan — birinchi bajariladi
+3) Eng yuqori prioritet doim
+4) Tasodifiy tanlash
+Correct option: 2
+---
+Q6: Round Robin uchun eng muhim parametr qaysi?
+1) Disk sektori
+2) Vaqt kvanti (time quantum)
+3) IP manzil
+4) Fayl nomi
+Correct option: 2
+---
+Q7: SJF algoritmining asosiy kamchiligi qaysi?
+1) CPU bandligini oshiradi
+2) Keyingi ish davomiyligini oldindan bilish qiyin
+3) Doim adolatli
+4) Hech qachon kutish bo‘lmaydi
+Correct option: 2
+---
+Q8: Scheduling “mexanizm” va “siyosat” farqi qaysi?
+1) Ikkalasi bir xil
+2) Siyosat — qoidalar/algoritm; mexanizm — amalda bajarish (navbat, dispatcher, context switch)
+3) Mexanizm — faqat GUI
+4) Siyosat — faqat drayver
+Correct option: 2
+---
+Q9: “Waiting time” (kutish vaqti) odatda nimani bildiradi?
+1) Jarayonning ready queue’da kutgan umumiy vaqti
+2) Disk aylanishi
+3) Internet ping
+4) Monitor kechikishi
+Correct option: 1
+---
+Q10: “Turnaround time” nimani bildiradi?
+1) Jarayon kelganidan tugaguncha bo‘lgan umumiy vaqt
+2) Faqat CPUda ishlagan vaqt
+3) Faqat diskda kutgan vaqt
+4) Faqat tarmoqda o‘tgan vaqt
+Correct option: 1
+---
+Q11: “Response time” ko‘proq qaysi tizimlarda muhim?
+1) Interaktiv tizimlarda
+2) Faqat batch tizimlarda
+3) Faqat BIOSda
+4) Faqat printerda
+Correct option: 1
+---
+Q12: Priority schedulingda muammo bo‘lishi mumkin:
+1) Starvation
+2) Diskni formatlash
+3) RAMni yo‘qotish
+4) Monitor sinishi
+Correct option: 1
+---
+Q13: Starvationga qarshi amaliy usul (aging) nimani anglatadi?
+1) Vaqt o‘tishi bilan kutayotgan jarayon prioritetini oshirish
+2) Diskni eskirtirish
+3) CPUni sekinlatish
+4) Tarmoqni uzish
+Correct option: 1
+---
+Q14: Multilevel queue scheduling g‘oyasi qaysi?
+1) Jarayonlarni sinf/toifalarga ajratib, alohida navbatlar yaratish
+2) Faqat bitta navbat
+3) Faqat tasodifiy tanlash
+4) Faqat disk navbati
+Correct option: 1
+---
+Q15: Preemptive rejalashtirish qaysi holatda ro‘y beradi?
+1) Jarayon ixtiyoriy ravishda CPUni bo‘shatganda
+2) OT jarayonni majburan CPUdan chiqarib, boshqasiga beradi
+3) Faqat kompyuter o‘chirilganda
+4) Faqat drayver o‘zgarganda
+Correct option: 2
+---
+Q16: Preemptive schedulingda jarayon uzilish yoki kvant tugashi bilan CPUdan chiqarilishi mumkin.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q17: “Device queue” barcha qurilmalar uchun bitta umumiy navbatdan iborat bo‘lishi shart.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 2
+---
+Q18: Round Robin interaktiv tizimlar uchun ko‘pincha qulay hisoblanadi.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q19: SJF algoritmi nazariy jihatdan o‘rtacha kutish vaqtini kamaytirishi mumkin.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q20: Scheduling qarorlari faqat jarayon tugaganda qabul qilinadi.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 2
+---

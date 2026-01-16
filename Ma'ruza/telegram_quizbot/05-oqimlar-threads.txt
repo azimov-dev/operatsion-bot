@@ -1,0 +1,130 @@
+Q1: Oqim (thread) nima?
+1) Mustaqil disk bo‘limi
+2) Jarayon ichidagi bajarilish oqimi; CPU bajarishi mumkin bo‘lgan eng kichik “rejalashtiriladigan” birlik
+3) Faqat tarmoq kabeli
+4) Fayl turi
+Correct option: 2
+---
+Q2: Bir jarayondagi oqimlar odatda nimani bo‘lishadi?
+1) Har biri alohida adres makoni
+2) Umumiy adres makoni va resurslar (heap, fayl deskriptorlari), lekin o‘z stacki/registrlari bor
+3) Faqat ekran
+4) Faqat BIOS sozlamalari
+Correct option: 2
+---
+Q3: Jarayon va oqim o‘rtasidagi muhim farq qaysi?
+1) Oqimlar odatda yengilroq va kontekst almashishi tezroq
+2) Jarayonlar hech qachon rejalashtirilmaydi
+3) Oqimlar doim alohida kompyuterda ishlaydi
+4) Jarayonlar hech qachon xotira ishlatmaydi
+Correct option: 1
+---
+Q4: “User-level threads”ning kamchiligi sifatida ko‘p uchraydigani qaysi?
+1) Yadro ularni umuman ko‘rmaydi; bloklovchi tizim chaqirig‘i butun jarayonni to‘xtatishi mumkin
+2) Har doim yadroda ishlaydi
+3) Faqat GPU bilan ishlaydi
+4) Hech qanday kamchiligi yo‘q
+Correct option: 1
+---
+Q5: “Kernel-level threads”ning afzalligi qaysi?
+1) Yadro rejalashtiradi; bir oqim bloklansa ham boshqalari ishlashi mumkin
+2) Umuman sinxronizatsiya kerak emas
+3) Faqat bitta yadroda ishlaydi
+4) Oqimlar bir-birini ko‘rmaydi
+Correct option: 1
+---
+Q6: Ko‘p oqimlilik (multithreading) nima uchun foydali bo‘lishi mumkin?
+1) I/O kutish davrida boshqa ishni bajarish orqali samaradorlikni oshiradi
+2) Har doim diskni kichraytiradi
+3) Har doim tarmoqni o‘chiradi
+4) Har doim xatoni yo‘q qiladi
+Correct option: 1
+---
+Q7: Race condition (poyga holati) nimaga olib keladi?
+1) Natija oqimlar bajarilish tartibiga bog‘liq bo‘lib, noaniq bo‘lishi
+2) Har doim to‘g‘ri natija
+3) Faqat grafika xatolari
+4) Faqat printer muammosi
+Correct option: 1
+---
+Q8: Kritik qism (critical section) nima?
+1) Faqat kommentariya qismi
+2) Bir vaqtning o‘zida faqat bitta oqim kirishi kerak bo‘lgan kod bo‘lagi
+3) Faqat drayverlar ro‘yxati
+4) Faqat BIOS menyusi
+Correct option: 2
+---
+Q9: “Thread scheduling” nimani anglatishi mumkin?
+1) Oqimlarni CPUda bajarish tartibi va vaqtini rejalashtirish
+2) Disk bo‘limi
+3) Fayl siqish
+4) Monitor rejimi
+Correct option: 1
+---
+Q10: “Thread-safe” kod nimani bildiradi?
+1) Bir oqimda ishlasa bo‘ldi
+2) Bir nechta oqim parallel ishlaganda ham to‘g‘ri natija va xavfsiz holat
+3) Faqat internet bor
+4) Faqat GUI
+Correct option: 2
+---
+Q11: “Deadlock” oqimlar kontekstida nimaga o‘xshaydi?
+1) Ikkala oqim bir-biridagi lockni kutib qolishi
+2) Disk tezligi oshishi
+3) Monitor yorqinligi
+4) Fayl kengaytmasi
+Correct option: 1
+---
+Q12: “Starvation” (och qolish) nimani anglatadi?
+1) Oqim resurs/CPUga juda uzoq vaqt navbat kelmasligi
+2) Disk bo‘limi
+3) RAMni ko‘payishi
+4) Tarmoq ping
+Correct option: 1
+---
+Q13: “Join” amali (ko‘p tillarda) ko‘proq nimaga yaqin?
+1) Ota oqimning boshqa oqim tugashini kutishi
+2) Diskni formatlash
+3) Internetga ulanish
+4) Faylni ko‘chirish
+Correct option: 1
+---
+Q14: “Synchronization” vositalari qaysilar bo‘lishi mumkin?
+1) Mutex/lock, semafor, condition variable
+2) Faqat printer
+3) Faqat BIOS
+4) Faqat DNS
+Correct option: 1
+---
+Q15: “Context switch” oqimlar uchun jarayonlarga nisbatan ko‘pincha:
+1) Og‘irroq
+2) Yengilroq (lekin baribir xarajatga ega)
+3) Umuman bo‘lmaydi
+4) Faqat diskda bo‘ladi
+Correct option: 2
+---
+Q16: Oqimlar bir jarayonda umumiy heapni bo‘lishadi.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q17: Ko‘p oqimlilik har doim tezlikni oshiradi, hech qachon sekinlashmaydi.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 2
+---
+Q18: Race condition natijasi bajarilish tartibiga bog‘liq bo‘lishi mumkin.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q19: User-level threadlar yadro tomonidan doim alohida rejalashtiriladi.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 2
+---
+Q20: Threadlar alohida adres makoniga ega bo‘lmagani uchun ularda sinxronizatsiya kerak bo‘lmaydi.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 2
+---

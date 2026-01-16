@@ -1,0 +1,130 @@
+Q1: “Monolit yadro” arxitekturasiga eng mos ta’rif qaysi?
+1) Yadro faqat minimal funksiyalarni bajaradi, hamma xizmatlar foydalanuvchi rejimida
+2) Ko‘p xizmatlar yadro rejimida bitta katta yadro ichida ishlaydi
+3) Yadro umuman yo‘q
+4) Faqat brauzer orqali ishlaydi
+Correct option: 2
+---
+Q2: Mikro-yadro (microkernel) yondashuvida odatda qaysi komponentlar yadroda qoladi?
+1) Faqat grafika drayverlari
+2) Minimal rejalashtirish, xabar almashish (IPC), xotira boshqaruvi asoslari
+3) Barcha fayl tizimlari va tarmoq steklari
+4) Kompilyator
+Correct option: 2
+---
+Q3: Modulli yadro (loadable modules) afzalligi nimada?
+1) Yadroni qayta yuklamasdan funksionalni modul sifatida qo‘shish/olish mumkin
+2) CPU ishlashini doim sekinlashtiradi
+3) Xotirani doim ko‘paytiradi
+4) Faqat Windowsda mavjud
+Correct option: 1
+---
+Q4: “Qatlamli (layered) arxitektura”ning g‘oyasi qaysi?
+1) Barcha komponentlar bevosita apparat bilan ishlaydi
+2) Har qatlam faqat pastki qatlam xizmatlaridan foydalanadi
+3) Har qatlam bir-birini bilmaydi
+4) Faqat mobil tizimlar uchun
+Correct option: 2
+---
+Q5: “Gibrid yadro” deganda ko‘pincha nimani tushunishadi?
+1) Monolit va mikro-yadro g‘oyalarining aralashmasi
+2) Faqat bulutli OT
+3) Faqat o‘yin konsoli OT
+4) Faqat DOS
+Correct option: 1
+---
+Q6: “Yadro rejimi (kernel mode)” nima uchun kerak?
+1) Foydalanuvchi fon rasmini almashtirishi uchun
+2) Privilegiyali buyruqlar va apparat resurslariga nazoratli kirish uchun
+3) Matn formatlash uchun
+4) Faqat keshni tozalash uchun
+Correct option: 2
+---
+Q7: “Foydalanuvchi rejimi (user mode)”ning maqsadi qaysi?
+1) Yadro kodini o‘zgartirish
+2) Ilovalarni cheklangan huquqlarda bajarib, tizimni himoyalash
+3) BIOS sozlash
+4) Diskni formatlashni majburlash
+Correct option: 2
+---
+Q8: IPC (Inter-Process Communication) nima?
+1) Internet provayder kompaniyasi
+2) Jarayonlar o‘rtasida ma’lumot almashish mexanizmlari
+3) Printer drayveri
+4) Videokarta modeli
+Correct option: 2
+---
+Q9: “System services” (tizim xizmatlari) arxitekturada nimani anglatishi mumkin?
+1) OT taqdim etadigan xizmatlar (fayl, tarmoq, jarayon boshqaruvi) va ularning joylashuvi
+2) Faqat o‘yinlar
+3) Faqat brauzer
+4) Faqat drayver disk
+Correct option: 1
+---
+Q10: “Trusted Computing Base (TCB)” g‘oyasi qaysi?
+1) Ishonchli bo‘lishi kerak bo‘lgan minimal komponentlar to‘plami
+2) Faqat UI elementlar
+3) Faqat klaviatura drayveri
+4) Faqat DNS
+Correct option: 1
+---
+Q11: “User space” xizmatlarini ajratishning afzalligi qaysi?
+1) Xatolik bo‘lsa, yadro qulab tushishi ehtimoli kamayadi
+2) Har doim tezlikni ikki baravar oshiradi
+3) Diskni kichraytiradi
+4) RAMni nol qiladi
+Correct option: 1
+---
+Q12: “Kernel space”ga ko‘proq funksiyalarni joylashning kamchiligi qaysi?
+1) Modullilik ortadi
+2) Xatolik/bug tizim barqarorligiga kuchliroq ta’sir qiladi
+3) Hech qanday risk yo‘q
+4) Faqat internetga ta’sir
+Correct option: 2
+---
+Q13: “POSIX” ko‘proq nimaga tegishli?
+1) OTlar uchun interfeys/standartlar to‘plami
+2) Videokarta protokoli
+3) RAID darajasi
+4) BIOS versiyasi
+Correct option: 1
+---
+Q14: “Abstraction” (abstraksiya) OT arxitekturasida nimaga xizmat qiladi?
+1) Dasturchi uchun murakkablikni yashirish, standart interfeys berish
+2) Faqat font tanlash
+3) Diskni formatlash
+4) Tarmoqni uzish
+Correct option: 1
+---
+Q15: “Layer violation” (qatlam buzilishi) nimaga olib kelishi mumkin?
+1) Dizayn murakkablashishi va qo‘llab-quvvatlash qiyinlashishi
+2) Har doim tezlik oshishi
+3) Hech qanday ta’sir yo‘q
+4) Faqat printer ishlamaydi
+Correct option: 1
+---
+Q16: Mikro-yadroda xizmatlarning ko‘pi foydalanuvchi rejimida ishlashi mumkin.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q17: Monolit yadroda barcha xizmatlar albatta alohida jarayon sifatida ishlaydi.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 2
+---
+Q18: Modulli yadroda drayverni modul sifatida yuklash mumkin.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q19: IPC faqat tarmoq orqali ishlaydi, lokal jarayonlar uchun kerak emas.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 2
+---
+Q20: Kernel mode’da bajariladigan kod odatda yuqori privilegiyaga ega.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---

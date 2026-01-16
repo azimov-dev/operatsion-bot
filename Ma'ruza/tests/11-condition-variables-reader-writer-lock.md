@@ -1,0 +1,158 @@
+# 11-mavzu: Shartli kutish (Condition Variables) va Reader/Writer lock — test
+
+## Variantli savollar (A/B/C/D)
+
+1. Condition variable (shart o‘zgaruvchisi)ning asosiy roli qaysi?
+
+- A) Disk bo‘limini yaratish hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- B) Oqimlarni shart bajarilmaguncha uxlatish va signal bilan uyg‘otish
+- C) Internetni sozlash va unga yaqin yordamchi vazifalarni bajarish
+- D) Matnni tarjima qilish va hujjat/taqdimot kabi ofis ilovalari bilan ishlash
+
+2. Condition variable odatda qaysi bilan birga ishlatiladi?
+
+- A) Mutex/lock
+- B) Printer drayveri va qurilmalarni ulash hamda drayverlarni boshqarish
+- C) BIOS va firmware (UEFI/BIOS) sozlamalari bilan ishlash
+- D) GPU va unga yaqin yordamchi vazifalarni bajarish
+
+3. “Busy waiting”ga nisbatan condition variable afzalligi nimada?
+
+- A) CPUni behuda band qilmasdan kutadi
+- B) Doim sekinroq va unga yaqin yordamchi vazifalarni bajarish
+- C) Diskni ko‘paytiradi hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- D) Internetni o‘chiradi va unga yaqin yordamchi vazifalarni bajarish
+
+4. “Signal” (notify) nimani anglatadi?
+
+- A) Oqimni abadiy to‘xtatish va unga yaqin yordamchi vazifalarni bajarish
+- B) Kutayotgan oqim(lar)ga shart o‘zgarganini bildirish
+- C) Faylni o‘chirish va unga yaqin yordamchi vazifalarni bajarish
+- D) Tarmoqni uzish va tarmoq trafikini filtrlash/marshrutlash qoidalarini sozlash
+
+5. Producer–Consumer muammosida condition variable qayerda qo‘l keladi?
+
+- A) Bufer bo‘sh/to‘la bo‘lganda kutish va uyg‘otish
+- B) Disk tezligi hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- C) Monitor va unga yaqin yordamchi vazifalarni bajarish
+- D) Printer va qurilmalarni ulash hamda drayverlarni boshqarish
+
+6. Reader/Writer lock g‘oyasi qaysi?
+
+- A) Bitta o‘quvchi bo‘lishi va unga yaqin yordamchi vazifalarni bajarish
+- B) Ko‘p o‘quvchi bir vaqtda, lekin yozuvchi eksklyuziv
+- C) Yozuvchilar doim ustun va unga yaqin yordamchi vazifalarni bajarish
+- D) O‘quvchilar doim bloklanadi va unga yaqin yordamchi vazifalarni bajarish
+
+7. Reader/Writer lockda muammoli holat sifatida qaysi tez-tez uchraydi?
+
+- A) Starvation (masalan, yozuvchi uzoq kutib qolishi)
+- B) Disk sektori yo‘qolishi hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- C) Monitor sinishi va unga yaqin yordamchi vazifalarni bajarish
+- D) Tarmoq kabeli uzilishi va tarmoq trafikini filtrlash/marshrutlash qoidalarini sozlash
+
+8. “Spurious wakeup” (asossiz uyg‘onish) sababli qanday amaliy qoida ishlatiladi?
+
+- A) Shartni `if` bilan bir marta tekshirish
+- B) Shartni `while` siklida qayta-qayta tekshirib kutish
+- C) Umuman tekshirmaslik va unga yaqin yordamchi vazifalarni bajarish
+- D) `sleep` ishlatish va unga yaqin yordamchi vazifalarni bajarish
+
+9. Condition variableda “wait” bajarilganda odatda nima sodir bo‘ladi?
+
+- A) Oqim mutexni bo‘shatib, kutish holatiga o‘tadi
+- B) Oqim mutexni abadiy ushlab turadi va unga yaqin yordamchi vazifalarni bajarish
+- C) Disk formatlanadi hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- D) Internet uziladi va unga yaqin yordamchi vazifalarni bajarish
+
+10. “Broadcast” (notify_all) nimaga xizmat qiladi?
+
+- A) Bitta oqimni uyg‘otadi va unga yaqin yordamchi vazifalarni bajarish
+- B) Bir nechta kutayotgan oqimlarni uyg‘otadi
+- C) Fayl yaratadi va unga yaqin yordamchi vazifalarni bajarish
+- D) Tarmoqni o‘chiradi va tarmoq trafikini filtrlash/marshrutlash qoidalarini sozlash
+
+11. Producer-Consumer muammosida odatda qanday shartlar tekshiriladi?
+
+- A) Bufer bo‘shmi / to‘lami
+- B) Monitor kattami va unga yaqin yordamchi vazifalarni bajarish
+- C) Disk bo‘limi hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- D) IP manzil va unga yaqin yordamchi vazifalarni bajarish
+
+12. Reader/Writer lockning maqsadi qaysi?
+
+- A) Ko‘p o‘qishda parallel o‘qish, yozishni eksklyuziv qilish
+- B) Yozishga ruxsat va unga yaqin yordamchi vazifalarni bajarish
+- C) O‘qishga ruxsat va unga yaqin yordamchi vazifalarni bajarish
+- D) Umuman lock ishlatmaslik va unga yaqin yordamchi vazifalarni bajarish
+
+13. Writer-preference siyosati nimaga olib kelishi mumkin?
+
+- A) Reader starvation
+- B) Disk to‘lishi hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- C) RAM yo‘qolishi va xotiradan foydalanishni nazorat qilish
+- D) Internet uzilishi va unga yaqin yordamchi vazifalarni bajarish
+
+14. Reader-preference siyosati nimaga olib kelishi mumkin?
+
+- A) Writer starvation
+- B) Disk bo‘limi hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- C) Printer navbati va qurilmalarni ulash hamda drayverlarni boshqarish
+- D) BIOS xatosi va firmware (UEFI/BIOS) sozlamalari bilan ishlash
+
+15. Condition variable va mutex tandemining asosiy sababi qaysi?
+
+- A) Shart tekshiruvini va uyg‘otish/kutishni atomikroq (race’siz) tashkil qilish
+- B) Diskni tezlatish hamda diskdagi ma'lumotlarni tashkil etish/tekshirish
+- C) Internetni tezlatish va unga yaqin yordamchi vazifalarni bajarish
+- D) GUI chizish va oynali interfeys elementlarini boshqarish
+
+## To‘g‘ri / Noto‘g‘ri
+
+16. Condition variable yordamida kutayotgan oqim odatda mutexni bo‘shatib, uxlashga o‘tadi.
+
+- A) To‘g‘ri
+- B) Noto‘g‘ri
+
+17. Reader/Writer lock mutlaqo hech qachon starvationga olib kelmaydi.
+
+- A) To‘g‘ri
+- B) Noto‘g‘ri
+
+18. “Signal” berishdan oldin shartni o‘zgartirish (state update) muhim bo‘lishi mumkin.
+
+- A) To‘g‘ri
+- B) Noto‘g‘ri
+
+19. Spurious wakeup bo‘lishi mumkinligi uchun `while` bilan tekshiruv ishlatiladi.
+
+- A) To‘g‘ri
+- B) Noto‘g‘ri
+
+20. Reader/Writer lock faqat bitta o‘quvchini ruxsat qiladi.
+
+- A) To‘g‘ri
+- B) Noto‘g‘ri
+
+## Javoblar kaliti
+
+1. B
+2. A
+3. A
+4. B
+5. A
+6. B
+7. A
+8. B
+9. A
+10. B
+11. A
+12. A
+13. A
+14. A
+15. A
+16. A
+17. B
+18. A
+19. A
+20. B

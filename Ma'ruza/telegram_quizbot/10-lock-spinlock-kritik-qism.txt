@@ -1,0 +1,130 @@
+Q1: Lock (qulf)ning asosiy vazifasi qaysi?
+1) Diskni shifrlash
+2) Kritik qismga kirishni boshqarish (mutual exclusion)
+3) Internetni tezlatish
+4) Matnni formatlash
+Correct option: 2
+---
+Q2: Mutex va spin-lock orasidagi asosiy farq ko‘pincha qaysi?
+1) Spin-lock kutishda CPUni band qilib aylanishi (busy waiting) mumkin
+2) Mutex hech qachon bloklamaydi
+3) Spin-lock faqat fayllar uchun
+4) Mutex faqat tarmoq uchun
+Correct option: 1
+---
+Q3: Time slicing (vaqt taqsimoti) bo‘lgan tizimda spin-lockning xavfi nimada?
+1) Hech qanday xavf yo‘q
+2) Oqim CPU kvantini “aylanib” yeb qo‘yishi va samaradorlik pasayishi
+3) Disk sektori yo‘qolishi
+4) Printer qotishi
+Correct option: 2
+---
+Q4: Deadlock xavfini oshiruvchi holat qaysi?
+1) Locklarni doim bir xil tartibda olish
+2) Bir nechta lockni turli tartibda olish
+3) Lockni umuman ishlatmaslik
+4) Faqat o‘qish
+Correct option: 2
+---
+Q5: “Stop-and-go” (signal/kutish) yondashuvi ko‘proq nimaga xizmat qiladi?
+1) Oqimlarni shartsiz to‘xtatish
+2) Shart bajarilmaguncha kutish va shart bajarilganda uyg‘otish
+3) Diskni tozalash
+4) GUI chizish
+Correct option: 2
+---
+Q6: Lock yordamida kritik qismni himoyalashning minimal sharti qaysi?
+1) Lockni kritik qismdan keyin olish
+2) Kritik qismdan oldin lock, keyin unlock qilish
+3) Lockni umuman ishlatmaslik
+4) Lockni faqat o‘qishda ishlatish
+Correct option: 2
+---
+Q7: “Fairness” (adolat) muammosi qaysi holatga olib kelishi mumkin?
+1) Starvation (och qolish) — ayrim oqimlar uzoq kutib qolishi
+2) Disk hajmi oshishi
+3) RAM kamayishi
+4) Internet tezligi oshishi
+Correct option: 1
+---
+Q8: Bir vaqtda navbat (concurrent queue)da muhim talab qaysi?
+1) Bir nechta oqim ishlaganda ham ma’lumot yaxlitligi saqlanishi
+2) Faqat bitta oqim ishlashi
+3) Faqat GUI bo‘lishi
+4) Faqat SSDda ishlashi
+Correct option: 1
+---
+Q9: “Reentrant lock” nimaga yaqin?
+1) Oqim lockni bir necha marta ola oladi (hisoblagich bilan)
+2) Lock umuman ishlamaydi
+3) Faqat disk lock
+4) Faqat tarmoq lock
+Correct option: 1
+---
+Q10: “Critical section” juda uzun bo‘lsa, nima yuz berishi mumkin?
+1) Kutishlar ortadi, parallelizm kamayadi
+2) Disk hajmi oshadi
+3) Internet tezligi oshadi
+4) RAM yo‘qoladi
+Correct option: 1
+---
+Q11: “Lock contention” nimani anglatadi?
+1) Bir nechta oqim bir lock uchun raqobat qiladi
+2) Disk bo‘limi
+3) Printer navbati
+4) BIOS xabari
+Correct option: 1
+---
+Q12: Deadlockdan qochishning amaliy qoidalaridan biri qaysi?
+1) Locklarni doim bir xil tartibda olish
+2) Locklarni tasodifiy olish
+3) Lockni hech qachon bo‘shatmaslik
+4) Faqat sleep ishlatish
+Correct option: 1
+---
+Q13: “Try-lock” (lockni sinab ko‘rish) nimaga foydali bo‘lishi mumkin?
+1) Bloklanmasdan lock olishga urinish
+2) Diskni formatlash
+3) Tarmoqni o‘chirish
+4) BIOSga kirish
+Correct option: 1
+---
+Q14: Spin-lock qachon ko‘proq mos?
+1) Juda qisqa kritik kesim, bloklash xarajati katta bo‘lsa
+2) Juda uzun kritik kesim
+3) Faqat I/O kutish
+4) Faqat single-thread
+Correct option: 1
+---
+Q15: “Fair lock” nimani anglatadi?
+1) Kutish navbatidagi tartibga yaqin adolatli xizmat
+2) Har doim tasodifiy
+3) Hech qachon unlock bo‘lmaydi
+4) Faqat tarmoqda
+Correct option: 1
+---
+Q16: Spin-lock odatda juda qisqa kritik kesimlar uchun ma’qul.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q17: Lock ishlatish race condition ehtimolini kamaytiradi.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q18: Lock contention oshsa, samaradorlik pasayishi mumkin.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q19: Try-lock yordamida deadlock ehtimolini ba’zan kamaytirish mumkin.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 1
+---
+Q20: Lockni kritik qismdan oldin olish kerak emas.
+1) To‘g‘ri
+2) Noto‘g‘ri
+Correct option: 2
+---
